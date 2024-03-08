@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Custom Function from User | Parametric Surfaces </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Custom Function from User | Parametric Surfaces ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Parametric Surfaces">
+            Parametric Surfaces
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="custom-function-from-user">Custom Function from User</h1>
+
+<p>The true power of the <em>ParametricSurfacesLib</em> library lies in its ability to create 3D parametric surfaces using custom mathematical functions provided by the user. The custom function required by this library should have the following signature:</p>
+<pre><code>Vector3 CustomFunction(float u, float v); // CustomFunction(float, float)
+</code></pre>
+<p>In this demo, we will illustrate how to define a custom mathematical function and utilize it to generate a 3D parametric surface. The custom functions will have access to the same functionalities and features provided by the <em>ParametricSurfacesLib</em> library as the built-in functions, including vertex, UV, and colormap data, etc.</p>
+<h3 id="set-up-the-scene">Set Up the Scene</h3>
+<p>Navigate to the <em>Parametric Surfaces/Scenes</em> folder and double-click on the scene called <em>CustomFunction</em> to open the demo.</p>
+<p>In the Scene view window, you'll observe the custom-function surface with the default <em>jet</em> colormap displayed. In the Hierarchy window, there is only one GameObject named <em>Surface</em>. Clicking on <em>Surface</em> brings up its Inspector, allowing you to inspect the surface's properties. The material is specified using <em>VertexColorMaterial</em>. Additionally, the surface is attached to a C# script named <em>CustomFunction.cs</em>, which exposes several properties for manipulating the surface plot.</p>
+<h3 id="c-script">C# Script</h3>
+<p>let's examine the C# script file used in this demo. Navigate to the <em>Parametric Surfaces/Scripts</em> folder, double-click on the <em>CustomFunction.cs</em> file. Here is the code list for this file:</p>
+<pre><code>using UnityEngine;
+using ParametricSurfacesLib;
+using System;
+
+[RequireComponent(typeof(MeshFilter))]
+[ExecuteInEditMode]
+[Serializable]
+public class CustomFunction : MonoBehaviour
+{
+    [Range(0.1f, 2f)]
+    public float RTorus = 1f;
+    [Range(0.1f, 2f)]
+    public float RRing = 0.3f;
+
+    Vector3 TorusFunction(float u, float v)
+    {
+        var x = (RTorus + RRing * Mathf.Cos(v)) * Mathf.Cos(u);
+        var y = RRing * Mathf.Sin(v);
+        var z = (RTorus + RRing * Mathf.Cos(v)) * Mathf.Sin(u);
+        return new Vector3(x, y, z);
+    }
+
+    public ColormapEnum Colormaps = ColormapEnum.jet;
+    public bool ColormapReverse = false;
+    public ColormapDirectionEnum ColormapDirection = ColormapDirectionEnum.Y;
+    public bool AutoRotation = true;
+    public bool AutoUpdate = true;
+
+    private Mesh mesh;
+    private ParametricSurfaceData psd;
+    private ParametricSurfaceData.VertexData data;
+
+    void Start()
+    {
+        psd = new ParametricSurfaceData();
+        mesh = new Mesh();
+        GetComponent&lt;MeshFilter&gt;().mesh = mesh;
+        CreateSurface();
+    }
+
+    void Update()
+    {
+#if UNITY_EDITOR
+        if (!Application.isPlaying)
+        {
+            bool needsUpdate = mesh == null ||
+                 UnityEditor.Selection.activeGameObject == gameObject;
+            if (needsUpdate)
+            {
+                CreateSurface();
+                var mf = GetComponent&lt;MeshFilter&gt;();
+                mf.sharedMesh = mesh;
+            }
+        }
+#endif
+        if (Application.isPlaying)
+        {   
+            if (AutoUpdate) CreateSurface();                        
+            if (AutoRotation) psd.RotateObject(transform);
+        }
+    }
+
+    void CreateSurface()
+    {
+        psd ??= new ParametricSurfaceData()
+        {
+            UMin = 0f,
+            UMax = 2f * Mathf.PI,
+            VMin = 0f,
+            VMax = 2f * Mathf.PI,
+        };
+
+        psd.ColormapName = Colormaps;
+        psd.ColormapReverse = ColormapReverse;
+        psd.ColormapDirection = ColormapDirection;
+        data = psd.CreateData(TorusFunction, 201, 201);
+        mesh.Clear();
+        mesh.vertices = data.Vertices;
+        mesh.colors = data.Colors;
+        mesh.triangles = data.Triangles;
+        mesh.RecalculateNormals();
+    }
+}
+
+</code></pre>
+<p>Here, we define the custom function for a torus with the following code snippet:</p>
+<pre><code>Vector3 TorusFunction(float u, float v)
+{
+    var x = (RTorus + RRing * Mathf.Cos(v)) * Mathf.Cos(u);
+    var y = RRing * Mathf.Sin(v);
+    var z = (RTorus + RRing * Mathf.Cos(v)) * Mathf.Sin(u);
+    return new Vector3(x, y, z);
+}
+</code></pre>
+<p>Within the custom <em>TorusFunction</em> method, we utilize two public fields, <em>RTorus</em> and <em>RRing</em>, to control the appearance of the torus. These fields can be easily adjusted by the user from the Inspector. The method returns a 3D point of the <em>Vector3</em> type on the torus surface.</p>
+<p>Now, we can use this custom function inside the <em>CreateSurface</em> method in the same way as we did for the built-in functions implemented in the <em>ParametricSurfacesLib</em> library, but we need to specify the data range for the <em>u</em> and <em>v</em> variables used in our custom parametric function with the following code snippet:</p>
+<pre><code>psd ??= new ParametricSurfaceData()
+{
+    UMin = 0f,
+    UMax = 2f * Mathf.PI,
+    VMin = 0f,
+    VMax = 2f * Mathf.PI,
+};
+</code></pre>
+<p>Next, we pass our custom <em>TorusFunction</em> to the <em>CreateData</em> method to generate corresponding vertex data for the torus surface. The rest of the code for this demo is the same as that used in creating 3D parametric surfaces with the built-in mathematical functions.</p>
+<h3 id="start-play-mode">Start Play Mode</h3>
+<p>let's begin the Play mode by clicking the <em>Play</em> button. You'll observe our custom <em>Torus</em> surface with the <em>jet</em> colormap, as shown in the following image:</p>
+<p><img src="/images/img19.png" alt="colormap"></p>
+<p>By following the procedure described here, you can effortlessly create your own parametric surfaces by defining any parametric functions.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

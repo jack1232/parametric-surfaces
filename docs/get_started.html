@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Get Started | Parametric Surfaces </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Get Started | Parametric Surfaces ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Parametric Surfaces">
+            Parametric Surfaces
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="get-started">Get Started</h1>
+
+<h3 id="import-library">Import Library</h3>
+<p>To utilize the <em>ParametricSurfacesLib</em> library, you need to import it into your Unity project. Simply open the <em>Asset Store</em> window and import the <em>Parametric Surfaces</em> library package. The library can be found in the <em>Parametric Surfaces/Plugins</em> folder:</p>
+<p><img src="/images/img01.png" alt="import library"></p>
+<p>Within the folder, you will find two files: <em>ParametricSurfacesLib.dll</em> and <em>ParametricSurfacesLib.xml</em>. The former is the class library file, while the latter is the xml file used for IntelliSense in Visual Studio. In practice, your Unity project only requires these two files to create parametric 3D surface plots. You can place these two files within your project wherever you prefer, but ensure they are placed in the same folder.</p>
+<h3 id="materials-optional">Materials (Optional)</h3>
+<p>To test the library, you'll need to utilize a material that supports vertex color. Within the <em>Parametric Surfaces/Materials</em> folder, we've created two shaders using Shader Graph, one named <em>VertexColorGraph</em> and the other <em>TextureGraph</em>. These shaders are then used to define two materials: <em>VertexColorMaterial</em> and <em>TextureMaterial</em>, as illustrated in the following image:</p>
+<p><img src="/images/img02.png" alt="materials"></p>
+<p>The image below displays the <em>VertexColorGraph</em>.</p>
+<p><img src="/images/img03.png" alt="vertex color graph"></p>
+<p>This graph simple passes the vertex color to the fragment shader. Additionally, we expose two properties, <em>smoothness</em> and <em>metallic</em>, enabling users to easily adjust these properties in the Inspector.</p>
+<p>The <em>TextureGraph</em> becomes more intricate, as depicted in the following image.</p>
+<p><img src="/images/img04.png" alt="texture graph"></p>
+<p>This graph exposes four properties: <em>smoothness, metallic, UV Length</em> and <em>Texture Image</em>. The <em>UV Length</em> is of type <em>Vector2</em>, allowing users to repeat the image texture along the U and V directions, while the <em>TextureImage</em> property enables users to select different image textures.</p>
+<p>In the <em>Parametric Surfaces/Textures</em> folder, we've included several images that you can use to test the texture mapping on parametric surfaces.</p>
+<h3 id="camera-control-optional">Camera Control (Optional)</h3>
+<p>The the <em>Parametric Surfaces/Scripts</em> folder contains a <em>CameraOrbit.cs</em> file. This file can be attached to the <em>MainCamera</em> object in a scene, as shown in the following image:</p>
+<p><img src="/images/img05.png" alt="camera"></p>
+<p>This allows you to rotate, pan, and zoom the <em>GameObject</em> with your mouse in the game play mode. This camera control is optional, you can use whatever camera you like.</p>
+<p>With this preparation and setup, we'll show you how to use the <em>ParametricSurfacesLib</em> library to create several demo examples in the following sections.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

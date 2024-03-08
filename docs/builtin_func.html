@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Demo: Built-in Functions | Parametric Surfaces </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Demo: Built-in Functions | Parametric Surfaces ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Parametric Surfaces">
+            Parametric Surfaces
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="demo-built-in-functions">Demo: Built-in Functions</h1>
+
+<p>This demo illustrates how to utilize 26 built-in mathematical functions provided in the <em>ParametricSurfacesLib</em> library to generate 3D parametric surface plots. You can select the mathematical function from the <em>MathFunctionEnum</em> dropdown menu in the Inspector. Additionally, you can adjust the colormap and other parameters for the plots in real-time either in the Scene View or the Game View.</p>
+<h3 id="set-up-the-scene">Set up the Scene</h3>
+<p>The demo examples in the <em>Parametric Surfaces</em> package include three Scenes located in the <em>Parametric Surfaces/Scenes</em> folder:</p>
+<p><img src="/images/img06.png" alt="scenes"></p>
+<p>Double-click on the scene named <em>BuiltinFunctions</em> to access the demo for built-in mathematical functions:</p>
+<p><img src="/images/img07.png" alt="builtin"></p>
+<p>In the Scene view window, you'll see the parametric <em>Klein bottle</em> surface displayed with the default <em>jet</em> colormap. In the Hierarchy window, there is only one GameObject named <em>Surface</em>. Clicking on <em>Surface</em> bring up its Inspector, where you can inspect the surface's properties. The material is specified using <em>VertexColorMaterial</em>. Additionally, the surface is attached to a C# script named <em>BuilinFunctions.cs</em>, which exposes several properties for manipulating the surface plot.</p>
+<h3 id="c-script">C# Script</h3>
+<p>To examine the C# script file used in this demo, navigate to the <em>Parametric Surfaces/Scripts</em> folder, double-click on the <em>BuiltinFunctions.cs</em> file:</p>
+<p><img src="/images/img08.png" alt="builtin func"></p>
+<p>This will open the <em>BuiltinFunctions.cs</em> file in Visual Studio. Here is the code list for this script:</p>
+<pre><code>using ParametricSurfacesLib;
+using System;
+using UnityEngine;
+
+[RequireComponent(typeof(MeshFilter))]
+[ExecuteInEditMode]
+[Serializable]
+public class BuiltinFunctions : MonoBehaviour
+{
+    public MathFunctionEnum MathFunctions = MathFunctionEnum.KleinBottle;
+    public ColormapEnum Colormaps = ColormapEnum.jet;
+    public bool ColormapReverse = false;
+    public ColormapDirectionEnum ColormapDirection = ColormapDirectionEnum.Y;
+    public bool AutoRotation = true;
+
+    private Mesh mesh;
+    private ParametricSurfaceData psd;
+    private ParametricSurfaceData.VertexData data;
+   
+
+    void Start()
+    {
+        psd = new ParametricSurfaceData();
+        mesh = new Mesh();
+        GetComponent&lt;MeshFilter&gt;().mesh = mesh;
+        CreateSurface();
+    }
+
+    void Update()
+    {
+        #if UNITY_EDITOR
+        if (!Application.isPlaying)
+        {
+            bool needsUpdate = mesh == null ||
+                 UnityEditor.Selection.activeGameObject == gameObject;
+            if (needsUpdate)
+            {
+                CreateSurface();
+                var mf = GetComponent&lt;MeshFilter&gt;();
+                mf.sharedMesh = mesh;
+            }
+        }
+        #endif
+        if (Application.isPlaying)
+        {
+            CreateSurface();
+            if (AutoRotation)
+            {
+                psd.RotateObject(transform);
+            }
+        }
+    }
+
+    void CreateSurface()
+    {
+        psd ??= new ParametricSurfaceData();
+        psd.ColormapName = Colormaps;
+        psd.ColormapReverse = ColormapReverse;
+        psd.ColormapDirection = ColormapDirection;
+       
+        data = psd.GetDefaultSurfaceData(MathFunctions);
+        mesh.Clear();
+        mesh.vertices = data.Vertices;
+        mesh.colors = data.Colors;
+        mesh.triangles = data.Triangles;
+
+        mesh.RecalculateNormals();
+    }
+}
+</code></pre>
+<p>First, we introduce the <em>ParametricSurfacesLib</em> library with the following using statement:</p>
+<pre><code>using ParametricSurfacesLib;
+</code></pre>
+<p>Next, we define several public fields whose values can be modified in the Inspector, including <em>MathFunctionEnum, ColormapEnum, ColormapReverse</em>, and <em>ColormapDirectionEnum</em>. All these fields are included in the <em>ParametricSurfacesLib</em>. The <em>Start</em> and <em>Update</em> methods are standard for a typical Unity project.</p>
+<p>The key method to utilize the <em>ParametricSurfacesLib</em> library is the <em>CreateSurface</em> method. Inside this method, we establish the relationships between the public fields defined in the Inspector and the fields implemented in the <em>ParametricSurfaceData</em> class in the <em>ParametricSurfacesLib</em> library. Next, we call the <em>GetDefaultSurfaceData</em> method to generate corresponding data, including <em>Vertices, Colormaps, UVs</em>, and <em>Triangles</em> (or <em>Indices</em>), for the 3D parametric surface. Subsequently, we assign this data to the Unity mesh object.</p>
+<p>Note that we don't assign the UV coord data to the mesh because we don't want to map any image texture onto our surface in this demo.</p>
+<p>Finally, we call the <em>mesh.RecalculateNormals</em> method to calculate the normal vector data that will be used for lighting.</p>
+<h3 id="start-play-mode">Start Play Mode</h3>
+<p>let's begin the Play mode by clicking the <em>Play</em> button. You'll see the default <em>Klein bottle</em> surface with the <em>jet</em> colormap. You can rotate, pan, and zoom the plot using your mouse, as demonstrated in the image below:</p>
+<p><img src="/images/img09.png" alt="builtin func"></p>
+<p>Next, clicking on the <em>Colormaps</em> dropdown menu reveals a list containing over 60 colormaps:</p>
+<p><img src="/images/img10.png" alt="colormap"></p>
+<p>You can select any colormap from this list to update the surface plot in real-time. For example, selecting the <em>cool</em> colormap from this list results in the following <em>Klein bottle</em> surface with the <em>cool</em> colormap. Additionally, checking the <em>Colormap Reverse</em> box reverses the <em>cool</em> colormap for the surface plot:</p>
+<p><img src="/images/img11.png" alt="colormap"></p>
+<p>This means that our <em>ParametricSurfacesLib</em> library contains over 120 colormaps (61 colormaps plus 61 reversed colormaps) that allow you to set colors for your 3D surface plots.</p>
+<p>You can also create various parametric surfaces by selecting different mathematical functions from the <em>MathFunctions</em> dropdown menu, which contains 26 built-in mathematical functions. The image below showcases selected parametric surfaces with different colormaps:</p>
+<p><img src="/images/img12.png" alt="surfaces"></p>
+<p>Furthermore, you can adjust other parameters such as the <em>smoothness</em> and <em>metallic</em> in the <em>Material</em> section within the Inspector to enhance the appearance of your 3D parametric surface. Particularly, checking the <em>Auto Rotation</em> box enables continuous rotation of the surface plot on your screen.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

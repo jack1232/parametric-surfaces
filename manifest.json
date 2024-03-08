@@ -1,0 +1,428 @@
+{
+  "source_base_path": "D:/projects/unity/Test/ParametricDoc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ParametricSurfacesLib.AnimationFunctionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ParametricSurfacesLib.AnimationFunctionEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ParametricSurfacesLib.ColormapDirectionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ParametricSurfacesLib.ColormapDirectionEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ParametricSurfacesLib.ColormapEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ParametricSurfacesLib.ColormapEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ParametricSurfacesLib.MathFunctionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ParametricSurfacesLib.MathFunctionEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ParametricSurfacesLib.ParametricSurfaceData.VertexData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ParametricSurfacesLib.ParametricSurfaceData.VertexData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ParametricSurfacesLib.ParametricSurfaceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ParametricSurfacesLib.ParametricSurfaceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ParametricSurfacesLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ParametricSurfacesLib.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/builtin_func.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/builtin_func.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/custom_func.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/custom_func.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/get_started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/get_started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/texture_map.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/texture_map.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img01.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img01.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img02.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img02.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img03.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img03.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img04.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img04.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img05.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img05.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img06.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img06.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img07.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img07.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img08.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img08.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img09.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img09.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img10.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img11.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img12.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img13.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img14.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img15.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img16.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img17.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img17.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img18.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img18.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/img19.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img19.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "styles/main.css",
+      "output": {
+        "resource": {
+          "relative_path": "styles/main.css"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

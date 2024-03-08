@@ -1,0 +1,1920 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ParametricSurfaceData | Parametric Surfaces </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ParametricSurfaceData | Parametric Surfaces ">
+      
+      <meta name="description" content="a static class SimpleSurfaceData contains methods to generate the vertex data for a simple 3D surface.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Parametric Surfaces">
+            Parametric Surfaces
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ParametricSurfacesLib.ParametricSurfaceData">
+
+
+
+  <h1 id="ParametricSurfacesLib_ParametricSurfaceData" data-uid="ParametricSurfacesLib.ParametricSurfaceData" class="text-break">
+Class ParametricSurfaceData  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ParametricSurfacesLib.html">ParametricSurfacesLib</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ParametricSurfacesLib.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>a static class <code>SimpleSurfaceData</code> contains methods to generate the vertex data for a simple 3D surface.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ParametricSurfaceData</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ParametricSurfaceData</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData__ctor_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.#ctor*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData__ctor" data-uid="ParametricSurfacesLib.ParametricSurfaceData.#ctor">
+  ParametricSurfaceData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Constructor of the ParmetricSurfaceData class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_AnimationSpeed_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.AnimationSpeed*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_AnimationSpeed" data-uid="ParametricSurfacesLib.ParametricSurfaceData.AnimationSpeed">
+  AnimationSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animation speed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AnimationSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_ColormapDirection_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.ColormapDirection*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_ColormapDirection" data-uid="ParametricSurfacesLib.ParametricSurfaceData.ColormapDirection">
+  ColormapDirection
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>whether or not reverse the colormap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ColormapDirectionEnum ColormapDirection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ColormapDirectionEnum.html">ColormapDirectionEnum</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_ColormapName_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.ColormapName*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_ColormapName" data-uid="ParametricSurfacesLib.ParametricSurfaceData.ColormapName">
+  ColormapName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>select colormap from the HeightmapEnum enumeration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ColormapEnum ColormapName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ColormapEnum.html">ColormapEnum</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_ColormapReverse_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.ColormapReverse*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_ColormapReverse" data-uid="ParametricSurfacesLib.ParametricSurfaceData.ColormapReverse">
+  ColormapReverse
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>whether or not reverse the colormap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ColormapReverse { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_CustomColormap_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.CustomColormap*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_CustomColormap" data-uid="ParametricSurfacesLib.ParametricSurfaceData.CustomColormap">
+  CustomColormap
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Specify a custom colormap</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Gradient CustomColormap { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Gradient</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Parameters_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Parameters*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Parameters" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Parameters">
+  Parameters
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Parameters used to generate various parametric surfaces</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float[] Parameters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_UMax_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.UMax*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_UMax" data-uid="ParametricSurfacesLib.ParametricSurfaceData.UMax">
+  UMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum value of the u values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float UMax { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_UMin_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.UMin*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_UMin" data-uid="ParametricSurfacesLib.ParametricSurfaceData.UMin">
+  UMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Minimum value of the u values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float UMin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_UResolution_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.UResolution*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_UResolution" data-uid="ParametricSurfacesLib.ParametricSurfaceData.UResolution">
+  UResolution
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resolution (or subdivisions) along the u direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UResolution { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_UseCustomColormap_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.UseCustomColormap*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_UseCustomColormap" data-uid="ParametricSurfacesLib.ParametricSurfaceData.UseCustomColormap">
+  UseCustomColormap
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>whether or not reverse the colormap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseCustomColormap { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_VMax_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.VMax*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_VMax" data-uid="ParametricSurfacesLib.ParametricSurfaceData.VMax">
+  VMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum value of the v values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float VMax { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_VMin_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.VMin*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_VMin" data-uid="ParametricSurfacesLib.ParametricSurfaceData.VMin">
+  VMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Minimum value of the v values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float VMin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_VResolution_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.VResolution*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_VResolution" data-uid="ParametricSurfacesLib.ParametricSurfaceData.VResolution">
+  VResolution
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resolution (or subdivisions) along the v direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int VResolution { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Astroid_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Astroid*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Astroid_System_Int32_System_Int32_System_Single_System_Single_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Astroid(System.Int32,System.Int32,System.Single,System.Single,System.Single)">
+  Astroid(int, int, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Astroid surface described by parametric equations that use three parameters
+with default a = 1.5, b = 1.5, and c = 1.5. The u and v data ranges: [0, 2<em>pi], [0, 2</em>pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Astroid(int nu, int nv, float a = 1.5, float b = 1.5, float c = 1.5)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.5.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.5.</p>
+</dd>
+    <dt><code>c</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.5.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Astroid2_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Astroid2*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Astroid2_System_Int32_System_Int32_System_Single_System_Single_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Astroid2(System.Int32,System.Int32,System.Single,System.Single,System.Single)">
+  Astroid2(int, int, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Astroid 2 surface described by parametric equations that use three parameters
+with default a = 1, b = 1, and c = 1.2. The u and v data ranges: [0, 2<em>pi], [0, 2</em>pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Astroid2(int nu, int nv, float a = 1, float b = 1, float c = 1.2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+    <dt><code>c</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.2.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_AstroidalTorus_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.AstroidalTorus*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_AstroidalTorus_System_Int32_System_Int32_System_Single_System_Single_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.AstroidalTorus(System.Int32,System.Int32,System.Single,System.Single,System.Single)">
+  AstroidalTorus(int, int, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Astroidal Torus surface described by parametric equations that use three parameters
+with default a = 2, b = 1, and c = 0.7854. The u and v data ranges: [0, 1], [0, 2*pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData AstroidalTorus(int nu, int nv, float a = 2, float b = 1, float c = 0.7854)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 2.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+    <dt><code>c</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 0.7854.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_BohemianDome_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.BohemianDome*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_BohemianDome_System_Int32_System_Int32_System_Single_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.BohemianDome(System.Int32,System.Int32,System.Single,System.Single)">
+  BohemianDome(int, int, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Bohemian-Dome surface described by parametric equations that use two parameters
+with default a = 0.7 and b = 1. The u and v data ranges: [0, 2<em>pi], [0, 2</em>pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData BohemianDome(int nu, int nv, float a = 0.7, float b = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 0.7.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_BoyShape_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.BoyShape*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_BoyShape_System_Int32_System_Int32_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.BoyShape(System.Int32,System.Int32)">
+  BoyShape(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Boy-shape surface described by parametric equations.
+The u and v data ranges: [-0.1, pi], [-0.1, pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData BoyShape(int nu, int nv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Breather_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Breather*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Breather_System_Int32_System_Int32_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Breather(System.Int32,System.Int32,System.Single)">
+  Breather(int, int, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Breather surface described by parametric equations that use one parameter
+with default a = 0.4. The u and v data ranges: [-14, 14], [-12pi, 12pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Breather(int nu, int nv, float a = 0.4)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 0.4.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_CreateData_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.CreateData*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_CreateData_System_Func_System_Single_System_Single_UnityEngine_Vector3__System_Int32_System_Int32_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.CreateData(System.Func{System.Single,System.Single,UnityEngine.Vector3},System.Int32,System.Int32)">
+  CreateData(Func&lt;float, float, Vector3&gt;, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This method generates the vertex position, vertex color, uv coordinate, and index data for a parametric 3D surface described by a
+math function provided by the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData CreateData(Func&lt;float, float, Vector3&gt; f, int nu = 101, int nv = 101)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <span class="xref">Vector3</span>&gt;</dt>
+    <dd><p>a math function used to describe a parametric 3D surface.</p>
+</dd>
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>resolution (or subdivisions) along the u direction.</p>
+</dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>resolution (or subdivisions) along the v direction.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Enneper_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Enneper*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Enneper_System_Int32_System_Int32_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Enneper(System.Int32,System.Int32,System.Single)">
+  Enneper(int, int, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Enneper surface described by parametric equations that use one parameter
+with default a = 0.333. The u and v data ranges: [-3.3, 3.3], [-3.3, 3.3].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Enneper(int nu, int nv, float a = 0.333)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 0.333.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Figure8_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Figure8*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Figure8_System_Int32_System_Int32_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Figure8(System.Int32,System.Int32,System.Single)">
+  Figure8(int, int, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Figure 8 surface described by parametric equations that use one parameter
+with default a = 2.5. The u and v data ranges: [0, 2<em>pi], [0, 2</em>pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Figure8(int nu, int nv, float a = 2.5)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 2.5.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_GetDefaultSurfaceData_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.GetDefaultSurfaceData*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_GetDefaultSurfaceData_ParametricSurfacesLib_MathFunctionEnum_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.GetDefaultSurfaceData(ParametricSurfacesLib.MathFunctionEnum)">
+  GetDefaultSurfaceData(MathFunctionEnum)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>create the vertex position, vertex color, uv coordinate, and index data for a parametric 3D surface described by a built-in
+math function selected using math functions enumeration with default parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData GetDefaultSurfaceData(MathFunctionEnum funcEnum)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>funcEnum</code> <a class="xref" href="ParametricSurfacesLib.MathFunctionEnum.html">MathFunctionEnum</a></dt>
+    <dd><p>use math functions enumeration to select a built-in math function.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>this method returns vertex position, vertex color, uv coordinate, and index data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Henneberg_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Henneberg*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Henneberg_System_Int32_System_Int32_System_Single_System_Single_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Henneberg(System.Int32,System.Int32,System.Single,System.Single,System.Single)">
+  Henneberg(int, int, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Henneberg surface described by parametric equations that use three parameters
+with default a = 1, and b = 1, and c = 1. The u and v data ranges: [0, 1], [0, 2*pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Henneberg(int nu, int nv, float a = 1, float b = 1, float c = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+    <dt><code>c</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Kiss_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Kiss*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Kiss_System_Int32_System_Int32_System_Single_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Kiss(System.Int32,System.Int32,System.Single,System.Single)">
+  Kiss(int, int, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Kiss surface described by parametric equations that use two parameters
+with default a = 1, and b = 1. The u and v data ranges: [-1, 1], [0, 2*pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Kiss(int nu, int nv, float a = 1, float b = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_KleinBottle_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.KleinBottle*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_KleinBottle_System_Int32_System_Int32_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.KleinBottle(System.Int32,System.Int32,System.Single)">
+  KleinBottle(int, int, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Klein-Bottle surface described by parametric equations.
+The u and v data ranges: [0, pi], [0, 2pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData KleinBottle(int nu, int nv, float a = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_KleinBottle2_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.KleinBottle2*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_KleinBottle2_System_Int32_System_Int32_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.KleinBottle2(System.Int32,System.Int32,System.Single)">
+  KleinBottle2(int, int, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Klein-Bottle2 surface described by parametric equations.
+The u and v data ranges: [0, 2<em>pi], [0, 2</em>pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData KleinBottle2(int nu, int nv, float a = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default parameters = 1.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_KleinBottle3_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.KleinBottle3*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_KleinBottle3_System_Int32_System_Int32_System_Single_System_Single_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.KleinBottle3(System.Int32,System.Int32,System.Single,System.Single,System.Single)">
+  KleinBottle3(int, int, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Klein-Bottle3 surface described by parametric equations that use three parameters
+with default a = 4, n = 3, and m = 1. The u and v data ranges: [0, 4<em>pi], [0, 2</em>pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData KleinBottle3(int nu, int nv, float a = 4, float n = 3, float m = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 4.</p>
+</dd>
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 3.</p>
+</dd>
+    <dt><code>m</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Kuen_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Kuen*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Kuen_System_Int32_System_Int32_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Kuen(System.Int32,System.Int32)">
+  Kuen(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Kuen surface described by parametric equations.
+The u and v data ranges: [-5, 5], [-5, 5].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Kuen(int nu, int nv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Layer_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Layer*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Layer_System_Int32_System_Int32_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Layer(System.Int32,System.Int32)">
+  Layer(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D layered sphere described by parametric equations.
+The u and v data ranges: [0, pi], [0, 2*pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Layer(int nu, int nv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Minimal_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Minimal*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Minimal_System_Int32_System_Int32_System_Single_System_Single_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Minimal(System.Int32,System.Int32,System.Single,System.Single,System.Single)">
+  Minimal(int, int, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Minimal surface described by parametric equations that use three parameters
+with default a = 1, b = 1, and c = 1. The u and v data ranges: [-3, 1], [-3<em>pi, 3</em>pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Minimal(int nu, int nv, float a = 1, float b = 1, float c = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+    <dt><code>c</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Mobius_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Mobius*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Mobius_System_Int32_System_Int32_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Mobius(System.Int32,System.Int32)">
+  Mobius(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D mobius surface described by parametric equations.
+The u and v data ranges: [0, 6 * pi], [-1, 1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Mobius(int nu, int nv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_ParabolicCyclide_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.ParabolicCyclide*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_ParabolicCyclide_System_Int32_System_Int32_System_Single_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.ParabolicCyclide(System.Int32,System.Int32,System.Single,System.Single)">
+  ParabolicCyclide(int, int, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D ParabolicCyclide surface described by parametric equations that use two parameters
+with default a = 1, and b = 0.5. The u and v data ranges: [-5, 5], [-5, 5].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData ParabolicCyclide(int nu, int nv, float a = 1, float b = 0.5)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 0.5.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Pear_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Pear*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Pear_System_Int32_System_Int32_System_Single_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Pear(System.Int32,System.Int32,System.Single,System.Single)">
+  Pear(int, int, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Pear surface described by parametric equations that use two parameters
+with default a = 1, and b = 1. The u and v data ranges: [0, 1], [0, 2pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Pear(int nu, int nv, float a = 1, float b = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_PluckerConoid_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.PluckerConoid*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_PluckerConoid_System_Int32_System_Int32_System_Single_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.PluckerConoid(System.Int32,System.Int32,System.Single,System.Single)">
+  PluckerConoid(int, int, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Plucker Conoid surface described by parametric equations that use two parameters
+with default a = 2, and b = 3. The u and v data ranges: [-2, 2], [0, 2pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData PluckerConoid(int nu, int nv, float a = 2, float b = 3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 2.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 3.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_RotateObject_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.RotateObject*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_RotateObject_UnityEngine_Transform_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.RotateObject(UnityEngine.Transform)">
+  RotateObject(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method is used to rotate the game object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RotateObject(Transform transform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>this is the transform attached to the game object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Seashell_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Seashell*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Seashell_System_Int32_System_Int32_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Seashell(System.Int32,System.Int32)">
+  Seashell(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Seashell surface described by parametric equations.
+The u and v data ranges: [0, 6pi], [0, 2pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Seashell(int nu, int nv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_SievertEnneper_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.SievertEnneper*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_SievertEnneper_System_Int32_System_Int32_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.SievertEnneper(System.Int32,System.Int32,System.Single)">
+  SievertEnneper(int, int, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Sievert-Enneper surface described by parametric equations that use one parameter
+with default a = 1. The u and v data ranges: [-pi/2.1, pi/2.1], [0.001, pi/1.001].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData SievertEnneper(int nu, int nv, float a = 0.4)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameter used for this function, default value = 1.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Sphere_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Sphere*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Sphere_System_Int32_System_Int32_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Sphere(System.Int32,System.Int32)">
+  Sphere(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D sphere described by parametric equations.
+The u and v data ranges: [0, pi], [0, 2*pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Sphere(int nu, int nv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Steiner_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Steiner*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Steiner_System_Int32_System_Int32_System_Single_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Steiner(System.Int32,System.Int32,System.Single)">
+  Steiner(int, int, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Steiner surface described by parametric equations that use one parameter
+with default a = 1. The u and v data ranges: [-2, 2], [0, 2*pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Steiner(int nu, int nv, float a = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>parameters used for this function, default value = 1.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Torus_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Torus*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Torus_System_Int32_System_Int32_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Torus(System.Int32,System.Int32)">
+  Torus(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Torus surface described by parametric equations that use two parameters
+with default R = 1, r = 0.3, and a = 1. The u and v data ranges: [0, 2<em>pi], [0, 2</em>pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Torus(int nu, int nv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ParametricSurfacesLib_ParametricSurfaceData_Wellenkugel_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Wellenkugel*"></a>
+
+  <h3 id="ParametricSurfacesLib_ParametricSurfaceData_Wellenkugel_System_Int32_System_Int32_" data-uid="ParametricSurfacesLib.ParametricSurfaceData.Wellenkugel(System.Int32,System.Int32)">
+  Wellenkugel(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method produces vertex data for a 3D Wellenkugel surface described by parametric equations.
+The u and v data ranges: [0, 14.5], [0, 2pi].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParametricSurfaceData.VertexData Wellenkugel(int nu, int nv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>nv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.html">ParametricSurfaceData</a>.<a class="xref" href="ParametricSurfacesLib.ParametricSurfaceData.VertexData.html">VertexData</a></dt>
+    <dd><p>This method returns a VertexData struct. It contains the vertex, colormap, uv coord, and triangle (or index) data arrays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

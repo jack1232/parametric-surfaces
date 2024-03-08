@@ -1,0 +1,1369 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ParametricSurfacesLib
+  name: ParametricSurfacesLib
+  href: api/ParametricSurfacesLib.html
+  commentId: N:ParametricSurfacesLib
+  fullName: ParametricSurfacesLib
+  nameWithType: ParametricSurfacesLib
+- uid: ParametricSurfacesLib.AnimationFunctionEnum
+  name: AnimationFunctionEnum
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html
+  commentId: T:ParametricSurfacesLib.AnimationFunctionEnum
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum
+  nameWithType: AnimationFunctionEnum
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Astroid
+  name: Astroid
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Astroid
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Astroid
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Astroid
+  nameWithType: AnimationFunctionEnum.Astroid
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Astroid2
+  name: Astroid2
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Astroid2
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Astroid2
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Astroid2
+  nameWithType: AnimationFunctionEnum.Astroid2
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.AstroidalTorus
+  name: AstroidalTorus
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_AstroidalTorus
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.AstroidalTorus
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.AstroidalTorus
+  nameWithType: AnimationFunctionEnum.AstroidalTorus
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.BohemianDome
+  name: BohemianDome
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_BohemianDome
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.BohemianDome
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.BohemianDome
+  nameWithType: AnimationFunctionEnum.BohemianDome
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Breather
+  name: Breather
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Breather
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Breather
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Breather
+  nameWithType: AnimationFunctionEnum.Breather
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Enneper
+  name: Enneper
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Enneper
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Enneper
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Enneper
+  nameWithType: AnimationFunctionEnum.Enneper
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Figure8
+  name: Figure8
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Figure8
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Figure8
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Figure8
+  nameWithType: AnimationFunctionEnum.Figure8
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Henneberg
+  name: Henneberg
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Henneberg
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Henneberg
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Henneberg
+  nameWithType: AnimationFunctionEnum.Henneberg
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Kiss
+  name: Kiss
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Kiss
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Kiss
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Kiss
+  nameWithType: AnimationFunctionEnum.Kiss
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.KleinBottle
+  name: KleinBottle
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_KleinBottle
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.KleinBottle
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.KleinBottle
+  nameWithType: AnimationFunctionEnum.KleinBottle
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.KleinBottle2
+  name: KleinBottle2
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_KleinBottle2
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.KleinBottle2
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.KleinBottle2
+  nameWithType: AnimationFunctionEnum.KleinBottle2
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.KleinBottle3
+  name: KleinBottle3
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_KleinBottle3
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.KleinBottle3
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.KleinBottle3
+  nameWithType: AnimationFunctionEnum.KleinBottle3
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Minimal
+  name: Minimal
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Minimal
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Minimal
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Minimal
+  nameWithType: AnimationFunctionEnum.Minimal
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.ParabolicCyclide
+  name: ParabolicCyclide
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_ParabolicCyclide
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.ParabolicCyclide
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.ParabolicCyclide
+  nameWithType: AnimationFunctionEnum.ParabolicCyclide
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Pear
+  name: Pear
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Pear
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Pear
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Pear
+  nameWithType: AnimationFunctionEnum.Pear
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.PluckerConoid
+  name: PluckerConoid
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_PluckerConoid
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.PluckerConoid
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.PluckerConoid
+  nameWithType: AnimationFunctionEnum.PluckerConoid
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Steiner
+  name: Steiner
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Steiner
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Steiner
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Steiner
+  nameWithType: AnimationFunctionEnum.Steiner
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Torus
+  name: Torus
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Torus
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Torus
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Torus
+  nameWithType: AnimationFunctionEnum.Torus
+- uid: ParametricSurfacesLib.AnimationFunctionEnum.Wellenkugel
+  name: Wellenkugel
+  href: api/ParametricSurfacesLib.AnimationFunctionEnum.html#ParametricSurfacesLib_AnimationFunctionEnum_Wellenkugel
+  commentId: F:ParametricSurfacesLib.AnimationFunctionEnum.Wellenkugel
+  fullName: ParametricSurfacesLib.AnimationFunctionEnum.Wellenkugel
+  nameWithType: AnimationFunctionEnum.Wellenkugel
+- uid: ParametricSurfacesLib.ColormapDirectionEnum
+  name: ColormapDirectionEnum
+  href: api/ParametricSurfacesLib.ColormapDirectionEnum.html
+  commentId: T:ParametricSurfacesLib.ColormapDirectionEnum
+  fullName: ParametricSurfacesLib.ColormapDirectionEnum
+  nameWithType: ColormapDirectionEnum
+- uid: ParametricSurfacesLib.ColormapDirectionEnum.X
+  name: X
+  href: api/ParametricSurfacesLib.ColormapDirectionEnum.html#ParametricSurfacesLib_ColormapDirectionEnum_X
+  commentId: F:ParametricSurfacesLib.ColormapDirectionEnum.X
+  fullName: ParametricSurfacesLib.ColormapDirectionEnum.X
+  nameWithType: ColormapDirectionEnum.X
+- uid: ParametricSurfacesLib.ColormapDirectionEnum.Y
+  name: Y
+  href: api/ParametricSurfacesLib.ColormapDirectionEnum.html#ParametricSurfacesLib_ColormapDirectionEnum_Y
+  commentId: F:ParametricSurfacesLib.ColormapDirectionEnum.Y
+  fullName: ParametricSurfacesLib.ColormapDirectionEnum.Y
+  nameWithType: ColormapDirectionEnum.Y
+- uid: ParametricSurfacesLib.ColormapDirectionEnum.Z
+  name: Z
+  href: api/ParametricSurfacesLib.ColormapDirectionEnum.html#ParametricSurfacesLib_ColormapDirectionEnum_Z
+  commentId: F:ParametricSurfacesLib.ColormapDirectionEnum.Z
+  fullName: ParametricSurfacesLib.ColormapDirectionEnum.Z
+  nameWithType: ColormapDirectionEnum.Z
+- uid: ParametricSurfacesLib.ColormapEnum
+  name: ColormapEnum
+  href: api/ParametricSurfacesLib.ColormapEnum.html
+  commentId: T:ParametricSurfacesLib.ColormapEnum
+  fullName: ParametricSurfacesLib.ColormapEnum
+  nameWithType: ColormapEnum
+- uid: ParametricSurfacesLib.ColormapEnum.accent
+  name: accent
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_accent
+  commentId: F:ParametricSurfacesLib.ColormapEnum.accent
+  fullName: ParametricSurfacesLib.ColormapEnum.accent
+  nameWithType: ColormapEnum.accent
+- uid: ParametricSurfacesLib.ColormapEnum.autumn
+  name: autumn
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_autumn
+  commentId: F:ParametricSurfacesLib.ColormapEnum.autumn
+  fullName: ParametricSurfacesLib.ColormapEnum.autumn
+  nameWithType: ColormapEnum.autumn
+- uid: ParametricSurfacesLib.ColormapEnum.bathymetry
+  name: bathymetry
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_bathymetry
+  commentId: F:ParametricSurfacesLib.ColormapEnum.bathymetry
+  fullName: ParametricSurfacesLib.ColormapEnum.bathymetry
+  nameWithType: ColormapEnum.bathymetry
+- uid: ParametricSurfacesLib.ColormapEnum.blackbody
+  name: blackbody
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_blackbody
+  commentId: F:ParametricSurfacesLib.ColormapEnum.blackbody
+  fullName: ParametricSurfacesLib.ColormapEnum.blackbody
+  nameWithType: ColormapEnum.blackbody
+- uid: ParametricSurfacesLib.ColormapEnum.bluered
+  name: bluered
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_bluered
+  commentId: F:ParametricSurfacesLib.ColormapEnum.bluered
+  fullName: ParametricSurfacesLib.ColormapEnum.bluered
+  nameWithType: ColormapEnum.bluered
+- uid: ParametricSurfacesLib.ColormapEnum.bone
+  name: bone
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_bone
+  commentId: F:ParametricSurfacesLib.ColormapEnum.bone
+  fullName: ParametricSurfacesLib.ColormapEnum.bone
+  nameWithType: ColormapEnum.bone
+- uid: ParametricSurfacesLib.ColormapEnum.cdom
+  name: cdom
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_cdom
+  commentId: F:ParametricSurfacesLib.ColormapEnum.cdom
+  fullName: ParametricSurfacesLib.ColormapEnum.cdom
+  nameWithType: ColormapEnum.cdom
+- uid: ParametricSurfacesLib.ColormapEnum.chlorophyll
+  name: chlorophyll
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_chlorophyll
+  commentId: F:ParametricSurfacesLib.ColormapEnum.chlorophyll
+  fullName: ParametricSurfacesLib.ColormapEnum.chlorophyll
+  nameWithType: ColormapEnum.chlorophyll
+- uid: ParametricSurfacesLib.ColormapEnum.cool
+  name: cool
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_cool
+  commentId: F:ParametricSurfacesLib.ColormapEnum.cool
+  fullName: ParametricSurfacesLib.ColormapEnum.cool
+  nameWithType: ColormapEnum.cool
+- uid: ParametricSurfacesLib.ColormapEnum.cooper
+  name: cooper
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_cooper
+  commentId: F:ParametricSurfacesLib.ColormapEnum.cooper
+  fullName: ParametricSurfacesLib.ColormapEnum.cooper
+  nameWithType: ColormapEnum.cooper
+- uid: ParametricSurfacesLib.ColormapEnum.cubehelix
+  name: cubehelix
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_cubehelix
+  commentId: F:ParametricSurfacesLib.ColormapEnum.cubehelix
+  fullName: ParametricSurfacesLib.ColormapEnum.cubehelix
+  nameWithType: ColormapEnum.cubehelix
+- uid: ParametricSurfacesLib.ColormapEnum.dark2
+  name: dark2
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_dark2
+  commentId: F:ParametricSurfacesLib.ColormapEnum.dark2
+  fullName: ParametricSurfacesLib.ColormapEnum.dark2
+  nameWithType: ColormapEnum.dark2
+- uid: ParametricSurfacesLib.ColormapEnum.density
+  name: density
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_density
+  commentId: F:ParametricSurfacesLib.ColormapEnum.density
+  fullName: ParametricSurfacesLib.ColormapEnum.density
+  nameWithType: ColormapEnum.density
+- uid: ParametricSurfacesLib.ColormapEnum.earth
+  name: earth
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_earth
+  commentId: F:ParametricSurfacesLib.ColormapEnum.earth
+  fullName: ParametricSurfacesLib.ColormapEnum.earth
+  nameWithType: ColormapEnum.earth
+- uid: ParametricSurfacesLib.ColormapEnum.electric
+  name: electric
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_electric
+  commentId: F:ParametricSurfacesLib.ColormapEnum.electric
+  fullName: ParametricSurfacesLib.ColormapEnum.electric
+  nameWithType: ColormapEnum.electric
+- uid: ParametricSurfacesLib.ColormapEnum.fix1
+  name: fix1
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_fix1
+  commentId: F:ParametricSurfacesLib.ColormapEnum.fix1
+  fullName: ParametricSurfacesLib.ColormapEnum.fix1
+  nameWithType: ColormapEnum.fix1
+- uid: ParametricSurfacesLib.ColormapEnum.freesurface_blue
+  name: freesurface_blue
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_freesurface_blue
+  commentId: F:ParametricSurfacesLib.ColormapEnum.freesurface_blue
+  fullName: ParametricSurfacesLib.ColormapEnum.freesurface_blue
+  nameWithType: ColormapEnum.freesurface_blue
+- uid: ParametricSurfacesLib.ColormapEnum.freesurface_red
+  name: freesurface_red
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_freesurface_red
+  commentId: F:ParametricSurfacesLib.ColormapEnum.freesurface_red
+  fullName: ParametricSurfacesLib.ColormapEnum.freesurface_red
+  nameWithType: ColormapEnum.freesurface_red
+- uid: ParametricSurfacesLib.ColormapEnum.gradient
+  name: gradient
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_gradient
+  commentId: F:ParametricSurfacesLib.ColormapEnum.gradient
+  fullName: ParametricSurfacesLib.ColormapEnum.gradient
+  nameWithType: ColormapEnum.gradient
+- uid: ParametricSurfacesLib.ColormapEnum.gradient2
+  name: gradient2
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_gradient2
+  commentId: F:ParametricSurfacesLib.ColormapEnum.gradient2
+  fullName: ParametricSurfacesLib.ColormapEnum.gradient2
+  nameWithType: ColormapEnum.gradient2
+- uid: ParametricSurfacesLib.ColormapEnum.greens
+  name: greens
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_greens
+  commentId: F:ParametricSurfacesLib.ColormapEnum.greens
+  fullName: ParametricSurfacesLib.ColormapEnum.greens
+  nameWithType: ColormapEnum.greens
+- uid: ParametricSurfacesLib.ColormapEnum.greys
+  name: greys
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_greys
+  commentId: F:ParametricSurfacesLib.ColormapEnum.greys
+  fullName: ParametricSurfacesLib.ColormapEnum.greys
+  nameWithType: ColormapEnum.greys
+- uid: ParametricSurfacesLib.ColormapEnum.hot
+  name: hot
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_hot
+  commentId: F:ParametricSurfacesLib.ColormapEnum.hot
+  fullName: ParametricSurfacesLib.ColormapEnum.hot
+  nameWithType: ColormapEnum.hot
+- uid: ParametricSurfacesLib.ColormapEnum.hsv
+  name: hsv
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_hsv
+  commentId: F:ParametricSurfacesLib.ColormapEnum.hsv
+  fullName: ParametricSurfacesLib.ColormapEnum.hsv
+  nameWithType: ColormapEnum.hsv
+- uid: ParametricSurfacesLib.ColormapEnum.inferno
+  name: inferno
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_inferno
+  commentId: F:ParametricSurfacesLib.ColormapEnum.inferno
+  fullName: ParametricSurfacesLib.ColormapEnum.inferno
+  nameWithType: ColormapEnum.inferno
+- uid: ParametricSurfacesLib.ColormapEnum.jet
+  name: jet
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_jet
+  commentId: F:ParametricSurfacesLib.ColormapEnum.jet
+  fullName: ParametricSurfacesLib.ColormapEnum.jet
+  nameWithType: ColormapEnum.jet
+- uid: ParametricSurfacesLib.ColormapEnum.magma
+  name: magma
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_magma
+  commentId: F:ParametricSurfacesLib.ColormapEnum.magma
+  fullName: ParametricSurfacesLib.ColormapEnum.magma
+  nameWithType: ColormapEnum.magma
+- uid: ParametricSurfacesLib.ColormapEnum.ocean
+  name: ocean
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_ocean
+  commentId: F:ParametricSurfacesLib.ColormapEnum.ocean
+  fullName: ParametricSurfacesLib.ColormapEnum.ocean
+  nameWithType: ColormapEnum.ocean
+- uid: ParametricSurfacesLib.ColormapEnum.oxygen
+  name: oxygen
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_oxygen
+  commentId: F:ParametricSurfacesLib.ColormapEnum.oxygen
+  fullName: ParametricSurfacesLib.ColormapEnum.oxygen
+  nameWithType: ColormapEnum.oxygen
+- uid: ParametricSurfacesLib.ColormapEnum.paired
+  name: paired
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_paired
+  commentId: F:ParametricSurfacesLib.ColormapEnum.paired
+  fullName: ParametricSurfacesLib.ColormapEnum.paired
+  nameWithType: ColormapEnum.paired
+- uid: ParametricSurfacesLib.ColormapEnum.par
+  name: par
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_par
+  commentId: F:ParametricSurfacesLib.ColormapEnum.par
+  fullName: ParametricSurfacesLib.ColormapEnum.par
+  nameWithType: ColormapEnum.par
+- uid: ParametricSurfacesLib.ColormapEnum.pastel1
+  name: pastel1
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_pastel1
+  commentId: F:ParametricSurfacesLib.ColormapEnum.pastel1
+  fullName: ParametricSurfacesLib.ColormapEnum.pastel1
+  nameWithType: ColormapEnum.pastel1
+- uid: ParametricSurfacesLib.ColormapEnum.pastel2
+  name: pastel2
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_pastel2
+  commentId: F:ParametricSurfacesLib.ColormapEnum.pastel2
+  fullName: ParametricSurfacesLib.ColormapEnum.pastel2
+  nameWithType: ColormapEnum.pastel2
+- uid: ParametricSurfacesLib.ColormapEnum.phase
+  name: phase
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_phase
+  commentId: F:ParametricSurfacesLib.ColormapEnum.phase
+  fullName: ParametricSurfacesLib.ColormapEnum.phase
+  nameWithType: ColormapEnum.phase
+- uid: ParametricSurfacesLib.ColormapEnum.picnic
+  name: picnic
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_picnic
+  commentId: F:ParametricSurfacesLib.ColormapEnum.picnic
+  fullName: ParametricSurfacesLib.ColormapEnum.picnic
+  nameWithType: ColormapEnum.picnic
+- uid: ParametricSurfacesLib.ColormapEnum.plasma
+  name: plasma
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_plasma
+  commentId: F:ParametricSurfacesLib.ColormapEnum.plasma
+  fullName: ParametricSurfacesLib.ColormapEnum.plasma
+  nameWithType: ColormapEnum.plasma
+- uid: ParametricSurfacesLib.ColormapEnum.portland
+  name: portland
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_portland
+  commentId: F:ParametricSurfacesLib.ColormapEnum.portland
+  fullName: ParametricSurfacesLib.ColormapEnum.portland
+  nameWithType: ColormapEnum.portland
+- uid: ParametricSurfacesLib.ColormapEnum.rainbow
+  name: rainbow
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_rainbow
+  commentId: F:ParametricSurfacesLib.ColormapEnum.rainbow
+  fullName: ParametricSurfacesLib.ColormapEnum.rainbow
+  nameWithType: ColormapEnum.rainbow
+- uid: ParametricSurfacesLib.ColormapEnum.rainbow_soft
+  name: rainbow_soft
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_rainbow_soft
+  commentId: F:ParametricSurfacesLib.ColormapEnum.rainbow_soft
+  fullName: ParametricSurfacesLib.ColormapEnum.rainbow_soft
+  nameWithType: ColormapEnum.rainbow_soft
+- uid: ParametricSurfacesLib.ColormapEnum.rdbu
+  name: rdbu
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_rdbu
+  commentId: F:ParametricSurfacesLib.ColormapEnum.rdbu
+  fullName: ParametricSurfacesLib.ColormapEnum.rdbu
+  nameWithType: ColormapEnum.rdbu
+- uid: ParametricSurfacesLib.ColormapEnum.salinity
+  name: salinity
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_salinity
+  commentId: F:ParametricSurfacesLib.ColormapEnum.salinity
+  fullName: ParametricSurfacesLib.ColormapEnum.salinity
+  nameWithType: ColormapEnum.salinity
+- uid: ParametricSurfacesLib.ColormapEnum.set1
+  name: set1
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_set1
+  commentId: F:ParametricSurfacesLib.ColormapEnum.set1
+  fullName: ParametricSurfacesLib.ColormapEnum.set1
+  nameWithType: ColormapEnum.set1
+- uid: ParametricSurfacesLib.ColormapEnum.set2
+  name: set2
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_set2
+  commentId: F:ParametricSurfacesLib.ColormapEnum.set2
+  fullName: ParametricSurfacesLib.ColormapEnum.set2
+  nameWithType: ColormapEnum.set2
+- uid: ParametricSurfacesLib.ColormapEnum.set3
+  name: set3
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_set3
+  commentId: F:ParametricSurfacesLib.ColormapEnum.set3
+  fullName: ParametricSurfacesLib.ColormapEnum.set3
+  nameWithType: ColormapEnum.set3
+- uid: ParametricSurfacesLib.ColormapEnum.spring
+  name: spring
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_spring
+  commentId: F:ParametricSurfacesLib.ColormapEnum.spring
+  fullName: ParametricSurfacesLib.ColormapEnum.spring
+  nameWithType: ColormapEnum.spring
+- uid: ParametricSurfacesLib.ColormapEnum.summer
+  name: summer
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_summer
+  commentId: F:ParametricSurfacesLib.ColormapEnum.summer
+  fullName: ParametricSurfacesLib.ColormapEnum.summer
+  nameWithType: ColormapEnum.summer
+- uid: ParametricSurfacesLib.ColormapEnum.tab10
+  name: tab10
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_tab10
+  commentId: F:ParametricSurfacesLib.ColormapEnum.tab10
+  fullName: ParametricSurfacesLib.ColormapEnum.tab10
+  nameWithType: ColormapEnum.tab10
+- uid: ParametricSurfacesLib.ColormapEnum.tab20
+  name: tab20
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_tab20
+  commentId: F:ParametricSurfacesLib.ColormapEnum.tab20
+  fullName: ParametricSurfacesLib.ColormapEnum.tab20
+  nameWithType: ColormapEnum.tab20
+- uid: ParametricSurfacesLib.ColormapEnum.temperature
+  name: temperature
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_temperature
+  commentId: F:ParametricSurfacesLib.ColormapEnum.temperature
+  fullName: ParametricSurfacesLib.ColormapEnum.temperature
+  nameWithType: ColormapEnum.temperature
+- uid: ParametricSurfacesLib.ColormapEnum.terrain
+  name: terrain
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_terrain
+  commentId: F:ParametricSurfacesLib.ColormapEnum.terrain
+  fullName: ParametricSurfacesLib.ColormapEnum.terrain
+  nameWithType: ColormapEnum.terrain
+- uid: ParametricSurfacesLib.ColormapEnum.turbidity
+  name: turbidity
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_turbidity
+  commentId: F:ParametricSurfacesLib.ColormapEnum.turbidity
+  fullName: ParametricSurfacesLib.ColormapEnum.turbidity
+  nameWithType: ColormapEnum.turbidity
+- uid: ParametricSurfacesLib.ColormapEnum.turbo
+  name: turbo
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_turbo
+  commentId: F:ParametricSurfacesLib.ColormapEnum.turbo
+  fullName: ParametricSurfacesLib.ColormapEnum.turbo
+  nameWithType: ColormapEnum.turbo
+- uid: ParametricSurfacesLib.ColormapEnum.twilight
+  name: twilight
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_twilight
+  commentId: F:ParametricSurfacesLib.ColormapEnum.twilight
+  fullName: ParametricSurfacesLib.ColormapEnum.twilight
+  nameWithType: ColormapEnum.twilight
+- uid: ParametricSurfacesLib.ColormapEnum.velocity_blue
+  name: velocity_blue
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_velocity_blue
+  commentId: F:ParametricSurfacesLib.ColormapEnum.velocity_blue
+  fullName: ParametricSurfacesLib.ColormapEnum.velocity_blue
+  nameWithType: ColormapEnum.velocity_blue
+- uid: ParametricSurfacesLib.ColormapEnum.velocity_green
+  name: velocity_green
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_velocity_green
+  commentId: F:ParametricSurfacesLib.ColormapEnum.velocity_green
+  fullName: ParametricSurfacesLib.ColormapEnum.velocity_green
+  nameWithType: ColormapEnum.velocity_green
+- uid: ParametricSurfacesLib.ColormapEnum.viridis
+  name: viridis
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_viridis
+  commentId: F:ParametricSurfacesLib.ColormapEnum.viridis
+  fullName: ParametricSurfacesLib.ColormapEnum.viridis
+  nameWithType: ColormapEnum.viridis
+- uid: ParametricSurfacesLib.ColormapEnum.warm
+  name: warm
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_warm
+  commentId: F:ParametricSurfacesLib.ColormapEnum.warm
+  fullName: ParametricSurfacesLib.ColormapEnum.warm
+  nameWithType: ColormapEnum.warm
+- uid: ParametricSurfacesLib.ColormapEnum.white
+  name: white
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_white
+  commentId: F:ParametricSurfacesLib.ColormapEnum.white
+  fullName: ParametricSurfacesLib.ColormapEnum.white
+  nameWithType: ColormapEnum.white
+- uid: ParametricSurfacesLib.ColormapEnum.winter
+  name: winter
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_winter
+  commentId: F:ParametricSurfacesLib.ColormapEnum.winter
+  fullName: ParametricSurfacesLib.ColormapEnum.winter
+  nameWithType: ColormapEnum.winter
+- uid: ParametricSurfacesLib.ColormapEnum.yignbu
+  name: yignbu
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_yignbu
+  commentId: F:ParametricSurfacesLib.ColormapEnum.yignbu
+  fullName: ParametricSurfacesLib.ColormapEnum.yignbu
+  nameWithType: ColormapEnum.yignbu
+- uid: ParametricSurfacesLib.ColormapEnum.yiorrd
+  name: yiorrd
+  href: api/ParametricSurfacesLib.ColormapEnum.html#ParametricSurfacesLib_ColormapEnum_yiorrd
+  commentId: F:ParametricSurfacesLib.ColormapEnum.yiorrd
+  fullName: ParametricSurfacesLib.ColormapEnum.yiorrd
+  nameWithType: ColormapEnum.yiorrd
+- uid: ParametricSurfacesLib.MathFunctionEnum
+  name: MathFunctionEnum
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html
+  commentId: T:ParametricSurfacesLib.MathFunctionEnum
+  fullName: ParametricSurfacesLib.MathFunctionEnum
+  nameWithType: MathFunctionEnum
+- uid: ParametricSurfacesLib.MathFunctionEnum.Astroid
+  name: Astroid
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Astroid
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Astroid
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Astroid
+  nameWithType: MathFunctionEnum.Astroid
+- uid: ParametricSurfacesLib.MathFunctionEnum.Astroid2
+  name: Astroid2
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Astroid2
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Astroid2
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Astroid2
+  nameWithType: MathFunctionEnum.Astroid2
+- uid: ParametricSurfacesLib.MathFunctionEnum.AstroidalTorus
+  name: AstroidalTorus
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_AstroidalTorus
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.AstroidalTorus
+  fullName: ParametricSurfacesLib.MathFunctionEnum.AstroidalTorus
+  nameWithType: MathFunctionEnum.AstroidalTorus
+- uid: ParametricSurfacesLib.MathFunctionEnum.BohemianDome
+  name: BohemianDome
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_BohemianDome
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.BohemianDome
+  fullName: ParametricSurfacesLib.MathFunctionEnum.BohemianDome
+  nameWithType: MathFunctionEnum.BohemianDome
+- uid: ParametricSurfacesLib.MathFunctionEnum.BoyShape
+  name: BoyShape
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_BoyShape
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.BoyShape
+  fullName: ParametricSurfacesLib.MathFunctionEnum.BoyShape
+  nameWithType: MathFunctionEnum.BoyShape
+- uid: ParametricSurfacesLib.MathFunctionEnum.Breather
+  name: Breather
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Breather
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Breather
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Breather
+  nameWithType: MathFunctionEnum.Breather
+- uid: ParametricSurfacesLib.MathFunctionEnum.Enneper
+  name: Enneper
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Enneper
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Enneper
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Enneper
+  nameWithType: MathFunctionEnum.Enneper
+- uid: ParametricSurfacesLib.MathFunctionEnum.Figure8
+  name: Figure8
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Figure8
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Figure8
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Figure8
+  nameWithType: MathFunctionEnum.Figure8
+- uid: ParametricSurfacesLib.MathFunctionEnum.Henneberg
+  name: Henneberg
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Henneberg
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Henneberg
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Henneberg
+  nameWithType: MathFunctionEnum.Henneberg
+- uid: ParametricSurfacesLib.MathFunctionEnum.Kiss
+  name: Kiss
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Kiss
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Kiss
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Kiss
+  nameWithType: MathFunctionEnum.Kiss
+- uid: ParametricSurfacesLib.MathFunctionEnum.KleinBottle
+  name: KleinBottle
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_KleinBottle
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.KleinBottle
+  fullName: ParametricSurfacesLib.MathFunctionEnum.KleinBottle
+  nameWithType: MathFunctionEnum.KleinBottle
+- uid: ParametricSurfacesLib.MathFunctionEnum.KleinBottle2
+  name: KleinBottle2
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_KleinBottle2
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.KleinBottle2
+  fullName: ParametricSurfacesLib.MathFunctionEnum.KleinBottle2
+  nameWithType: MathFunctionEnum.KleinBottle2
+- uid: ParametricSurfacesLib.MathFunctionEnum.KleinBottle3
+  name: KleinBottle3
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_KleinBottle3
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.KleinBottle3
+  fullName: ParametricSurfacesLib.MathFunctionEnum.KleinBottle3
+  nameWithType: MathFunctionEnum.KleinBottle3
+- uid: ParametricSurfacesLib.MathFunctionEnum.Kuen
+  name: Kuen
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Kuen
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Kuen
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Kuen
+  nameWithType: MathFunctionEnum.Kuen
+- uid: ParametricSurfacesLib.MathFunctionEnum.Minimal
+  name: Minimal
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Minimal
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Minimal
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Minimal
+  nameWithType: MathFunctionEnum.Minimal
+- uid: ParametricSurfacesLib.MathFunctionEnum.Mobius
+  name: Mobius
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Mobius
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Mobius
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Mobius
+  nameWithType: MathFunctionEnum.Mobius
+- uid: ParametricSurfacesLib.MathFunctionEnum.ParabolicCyclide
+  name: ParabolicCyclide
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_ParabolicCyclide
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.ParabolicCyclide
+  fullName: ParametricSurfacesLib.MathFunctionEnum.ParabolicCyclide
+  nameWithType: MathFunctionEnum.ParabolicCyclide
+- uid: ParametricSurfacesLib.MathFunctionEnum.Pear
+  name: Pear
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Pear
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Pear
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Pear
+  nameWithType: MathFunctionEnum.Pear
+- uid: ParametricSurfacesLib.MathFunctionEnum.PluckerConoid
+  name: PluckerConoid
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_PluckerConoid
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.PluckerConoid
+  fullName: ParametricSurfacesLib.MathFunctionEnum.PluckerConoid
+  nameWithType: MathFunctionEnum.PluckerConoid
+- uid: ParametricSurfacesLib.MathFunctionEnum.Seashell
+  name: Seashell
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Seashell
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Seashell
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Seashell
+  nameWithType: MathFunctionEnum.Seashell
+- uid: ParametricSurfacesLib.MathFunctionEnum.SievertEnneper
+  name: SievertEnneper
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_SievertEnneper
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.SievertEnneper
+  fullName: ParametricSurfacesLib.MathFunctionEnum.SievertEnneper
+  nameWithType: MathFunctionEnum.SievertEnneper
+- uid: ParametricSurfacesLib.MathFunctionEnum.Sphere
+  name: Sphere
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Sphere
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Sphere
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Sphere
+  nameWithType: MathFunctionEnum.Sphere
+- uid: ParametricSurfacesLib.MathFunctionEnum.Steiner
+  name: Steiner
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Steiner
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Steiner
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Steiner
+  nameWithType: MathFunctionEnum.Steiner
+- uid: ParametricSurfacesLib.MathFunctionEnum.Torus
+  name: Torus
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Torus
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Torus
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Torus
+  nameWithType: MathFunctionEnum.Torus
+- uid: ParametricSurfacesLib.MathFunctionEnum.Wellenkugel
+  name: Wellenkugel
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Wellenkugel
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Wellenkugel
+  fullName: ParametricSurfacesLib.MathFunctionEnum.Wellenkugel
+  nameWithType: MathFunctionEnum.Wellenkugel
+- uid: ParametricSurfacesLib.MathFunctionEnum.layer
+  name: layer
+  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_layer
+  commentId: F:ParametricSurfacesLib.MathFunctionEnum.layer
+  fullName: ParametricSurfacesLib.MathFunctionEnum.layer
+  nameWithType: MathFunctionEnum.layer
+- uid: ParametricSurfacesLib.ParametricSurfaceData
+  name: ParametricSurfaceData
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html
+  commentId: T:ParametricSurfacesLib.ParametricSurfaceData
+  fullName: ParametricSurfacesLib.ParametricSurfaceData
+  nameWithType: ParametricSurfaceData
+- uid: ParametricSurfacesLib.ParametricSurfaceData.#ctor
+  name: ParametricSurfaceData()
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData__ctor
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.#ctor
+  name.vb: New()
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.ParametricSurfaceData()
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.New()
+  nameWithType: ParametricSurfaceData.ParametricSurfaceData()
+  nameWithType.vb: ParametricSurfaceData.New()
+- uid: ParametricSurfacesLib.ParametricSurfaceData.#ctor*
+  name: ParametricSurfaceData
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData__ctor_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.ParametricSurfaceData
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.New
+  nameWithType: ParametricSurfaceData.ParametricSurfaceData
+  nameWithType.vb: ParametricSurfaceData.New
+- uid: ParametricSurfacesLib.ParametricSurfaceData.AnimationSpeed
+  name: AnimationSpeed
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_AnimationSpeed
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.AnimationSpeed
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.AnimationSpeed
+  nameWithType: ParametricSurfaceData.AnimationSpeed
+- uid: ParametricSurfacesLib.ParametricSurfaceData.AnimationSpeed*
+  name: AnimationSpeed
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_AnimationSpeed_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.AnimationSpeed
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.AnimationSpeed
+  nameWithType: ParametricSurfaceData.AnimationSpeed
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Astroid(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name: Astroid(int, int, float, float, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Astroid_System_Int32_System_Int32_System_Single_System_Single_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Astroid(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name.vb: Astroid(Integer, Integer, Single, Single, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Astroid(int, int, float, float, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Astroid(Integer, Integer, Single, Single, Single)
+  nameWithType: ParametricSurfaceData.Astroid(int, int, float, float, float)
+  nameWithType.vb: ParametricSurfaceData.Astroid(Integer, Integer, Single, Single, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Astroid*
+  name: Astroid
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Astroid_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Astroid
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Astroid
+  nameWithType: ParametricSurfaceData.Astroid
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Astroid2(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name: Astroid2(int, int, float, float, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Astroid2_System_Int32_System_Int32_System_Single_System_Single_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Astroid2(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name.vb: Astroid2(Integer, Integer, Single, Single, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Astroid2(int, int, float, float, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Astroid2(Integer, Integer, Single, Single, Single)
+  nameWithType: ParametricSurfaceData.Astroid2(int, int, float, float, float)
+  nameWithType.vb: ParametricSurfaceData.Astroid2(Integer, Integer, Single, Single, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Astroid2*
+  name: Astroid2
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Astroid2_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Astroid2
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Astroid2
+  nameWithType: ParametricSurfaceData.Astroid2
+- uid: ParametricSurfacesLib.ParametricSurfaceData.AstroidalTorus(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name: AstroidalTorus(int, int, float, float, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_AstroidalTorus_System_Int32_System_Int32_System_Single_System_Single_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.AstroidalTorus(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name.vb: AstroidalTorus(Integer, Integer, Single, Single, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.AstroidalTorus(int, int, float, float, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.AstroidalTorus(Integer, Integer, Single, Single, Single)
+  nameWithType: ParametricSurfaceData.AstroidalTorus(int, int, float, float, float)
+  nameWithType.vb: ParametricSurfaceData.AstroidalTorus(Integer, Integer, Single, Single, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.AstroidalTorus*
+  name: AstroidalTorus
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_AstroidalTorus_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.AstroidalTorus
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.AstroidalTorus
+  nameWithType: ParametricSurfaceData.AstroidalTorus
+- uid: ParametricSurfacesLib.ParametricSurfaceData.BohemianDome(System.Int32,System.Int32,System.Single,System.Single)
+  name: BohemianDome(int, int, float, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_BohemianDome_System_Int32_System_Int32_System_Single_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.BohemianDome(System.Int32,System.Int32,System.Single,System.Single)
+  name.vb: BohemianDome(Integer, Integer, Single, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.BohemianDome(int, int, float, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.BohemianDome(Integer, Integer, Single, Single)
+  nameWithType: ParametricSurfaceData.BohemianDome(int, int, float, float)
+  nameWithType.vb: ParametricSurfaceData.BohemianDome(Integer, Integer, Single, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.BohemianDome*
+  name: BohemianDome
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_BohemianDome_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.BohemianDome
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.BohemianDome
+  nameWithType: ParametricSurfaceData.BohemianDome
+- uid: ParametricSurfacesLib.ParametricSurfaceData.BoyShape(System.Int32,System.Int32)
+  name: BoyShape(int, int)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_BoyShape_System_Int32_System_Int32_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.BoyShape(System.Int32,System.Int32)
+  name.vb: BoyShape(Integer, Integer)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.BoyShape(int, int)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.BoyShape(Integer, Integer)
+  nameWithType: ParametricSurfaceData.BoyShape(int, int)
+  nameWithType.vb: ParametricSurfaceData.BoyShape(Integer, Integer)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.BoyShape*
+  name: BoyShape
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_BoyShape_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.BoyShape
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.BoyShape
+  nameWithType: ParametricSurfaceData.BoyShape
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Breather(System.Int32,System.Int32,System.Single)
+  name: Breather(int, int, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Breather_System_Int32_System_Int32_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Breather(System.Int32,System.Int32,System.Single)
+  name.vb: Breather(Integer, Integer, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Breather(int, int, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Breather(Integer, Integer, Single)
+  nameWithType: ParametricSurfaceData.Breather(int, int, float)
+  nameWithType.vb: ParametricSurfaceData.Breather(Integer, Integer, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Breather*
+  name: Breather
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Breather_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Breather
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Breather
+  nameWithType: ParametricSurfaceData.Breather
+- uid: ParametricSurfacesLib.ParametricSurfaceData.ColormapDirection
+  name: ColormapDirection
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_ColormapDirection
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.ColormapDirection
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.ColormapDirection
+  nameWithType: ParametricSurfaceData.ColormapDirection
+- uid: ParametricSurfacesLib.ParametricSurfaceData.ColormapDirection*
+  name: ColormapDirection
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_ColormapDirection_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.ColormapDirection
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.ColormapDirection
+  nameWithType: ParametricSurfaceData.ColormapDirection
+- uid: ParametricSurfacesLib.ParametricSurfaceData.ColormapName
+  name: ColormapName
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_ColormapName
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.ColormapName
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.ColormapName
+  nameWithType: ParametricSurfaceData.ColormapName
+- uid: ParametricSurfacesLib.ParametricSurfaceData.ColormapName*
+  name: ColormapName
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_ColormapName_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.ColormapName
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.ColormapName
+  nameWithType: ParametricSurfaceData.ColormapName
+- uid: ParametricSurfacesLib.ParametricSurfaceData.ColormapReverse
+  name: ColormapReverse
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_ColormapReverse
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.ColormapReverse
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.ColormapReverse
+  nameWithType: ParametricSurfaceData.ColormapReverse
+- uid: ParametricSurfacesLib.ParametricSurfaceData.ColormapReverse*
+  name: ColormapReverse
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_ColormapReverse_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.ColormapReverse
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.ColormapReverse
+  nameWithType: ParametricSurfaceData.ColormapReverse
+- uid: ParametricSurfacesLib.ParametricSurfaceData.CreateData(System.Func{System.Single,System.Single,UnityEngine.Vector3},System.Int32,System.Int32)
+  name: CreateData(Func<float, float, Vector3>, int, int)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_CreateData_System_Func_System_Single_System_Single_UnityEngine_Vector3__System_Int32_System_Int32_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.CreateData(System.Func{System.Single,System.Single,UnityEngine.Vector3},System.Int32,System.Int32)
+  name.vb: CreateData(Func(Of Single, Single, Vector3), Integer, Integer)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.CreateData(System.Func<float, float, UnityEngine.Vector3>, int, int)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.CreateData(System.Func(Of Single, Single, UnityEngine.Vector3), Integer, Integer)
+  nameWithType: ParametricSurfaceData.CreateData(Func<float, float, Vector3>, int, int)
+  nameWithType.vb: ParametricSurfaceData.CreateData(Func(Of Single, Single, Vector3), Integer, Integer)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.CreateData*
+  name: CreateData
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_CreateData_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.CreateData
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.CreateData
+  nameWithType: ParametricSurfaceData.CreateData
+- uid: ParametricSurfacesLib.ParametricSurfaceData.CustomColormap
+  name: CustomColormap
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_CustomColormap
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.CustomColormap
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.CustomColormap
+  nameWithType: ParametricSurfaceData.CustomColormap
+- uid: ParametricSurfacesLib.ParametricSurfaceData.CustomColormap*
+  name: CustomColormap
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_CustomColormap_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.CustomColormap
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.CustomColormap
+  nameWithType: ParametricSurfaceData.CustomColormap
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Enneper(System.Int32,System.Int32,System.Single)
+  name: Enneper(int, int, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Enneper_System_Int32_System_Int32_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Enneper(System.Int32,System.Int32,System.Single)
+  name.vb: Enneper(Integer, Integer, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Enneper(int, int, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Enneper(Integer, Integer, Single)
+  nameWithType: ParametricSurfaceData.Enneper(int, int, float)
+  nameWithType.vb: ParametricSurfaceData.Enneper(Integer, Integer, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Enneper*
+  name: Enneper
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Enneper_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Enneper
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Enneper
+  nameWithType: ParametricSurfaceData.Enneper
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Figure8(System.Int32,System.Int32,System.Single)
+  name: Figure8(int, int, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Figure8_System_Int32_System_Int32_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Figure8(System.Int32,System.Int32,System.Single)
+  name.vb: Figure8(Integer, Integer, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Figure8(int, int, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Figure8(Integer, Integer, Single)
+  nameWithType: ParametricSurfaceData.Figure8(int, int, float)
+  nameWithType.vb: ParametricSurfaceData.Figure8(Integer, Integer, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Figure8*
+  name: Figure8
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Figure8_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Figure8
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Figure8
+  nameWithType: ParametricSurfaceData.Figure8
+- uid: ParametricSurfacesLib.ParametricSurfaceData.GetDefaultSurfaceData(ParametricSurfacesLib.MathFunctionEnum)
+  name: GetDefaultSurfaceData(MathFunctionEnum)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_GetDefaultSurfaceData_ParametricSurfacesLib_MathFunctionEnum_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.GetDefaultSurfaceData(ParametricSurfacesLib.MathFunctionEnum)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.GetDefaultSurfaceData(ParametricSurfacesLib.MathFunctionEnum)
+  nameWithType: ParametricSurfaceData.GetDefaultSurfaceData(MathFunctionEnum)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.GetDefaultSurfaceData*
+  name: GetDefaultSurfaceData
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_GetDefaultSurfaceData_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.GetDefaultSurfaceData
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.GetDefaultSurfaceData
+  nameWithType: ParametricSurfaceData.GetDefaultSurfaceData
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Henneberg(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name: Henneberg(int, int, float, float, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Henneberg_System_Int32_System_Int32_System_Single_System_Single_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Henneberg(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name.vb: Henneberg(Integer, Integer, Single, Single, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Henneberg(int, int, float, float, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Henneberg(Integer, Integer, Single, Single, Single)
+  nameWithType: ParametricSurfaceData.Henneberg(int, int, float, float, float)
+  nameWithType.vb: ParametricSurfaceData.Henneberg(Integer, Integer, Single, Single, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Henneberg*
+  name: Henneberg
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Henneberg_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Henneberg
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Henneberg
+  nameWithType: ParametricSurfaceData.Henneberg
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Kiss(System.Int32,System.Int32,System.Single,System.Single)
+  name: Kiss(int, int, float, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Kiss_System_Int32_System_Int32_System_Single_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Kiss(System.Int32,System.Int32,System.Single,System.Single)
+  name.vb: Kiss(Integer, Integer, Single, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Kiss(int, int, float, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Kiss(Integer, Integer, Single, Single)
+  nameWithType: ParametricSurfaceData.Kiss(int, int, float, float)
+  nameWithType.vb: ParametricSurfaceData.Kiss(Integer, Integer, Single, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Kiss*
+  name: Kiss
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Kiss_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Kiss
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Kiss
+  nameWithType: ParametricSurfaceData.Kiss
+- uid: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle(System.Int32,System.Int32,System.Single)
+  name: KleinBottle(int, int, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_KleinBottle_System_Int32_System_Int32_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.KleinBottle(System.Int32,System.Int32,System.Single)
+  name.vb: KleinBottle(Integer, Integer, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle(int, int, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle(Integer, Integer, Single)
+  nameWithType: ParametricSurfaceData.KleinBottle(int, int, float)
+  nameWithType.vb: ParametricSurfaceData.KleinBottle(Integer, Integer, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle*
+  name: KleinBottle
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_KleinBottle_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.KleinBottle
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle
+  nameWithType: ParametricSurfaceData.KleinBottle
+- uid: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle2(System.Int32,System.Int32,System.Single)
+  name: KleinBottle2(int, int, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_KleinBottle2_System_Int32_System_Int32_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.KleinBottle2(System.Int32,System.Int32,System.Single)
+  name.vb: KleinBottle2(Integer, Integer, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle2(int, int, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle2(Integer, Integer, Single)
+  nameWithType: ParametricSurfaceData.KleinBottle2(int, int, float)
+  nameWithType.vb: ParametricSurfaceData.KleinBottle2(Integer, Integer, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle2*
+  name: KleinBottle2
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_KleinBottle2_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.KleinBottle2
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle2
+  nameWithType: ParametricSurfaceData.KleinBottle2
+- uid: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle3(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name: KleinBottle3(int, int, float, float, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_KleinBottle3_System_Int32_System_Int32_System_Single_System_Single_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.KleinBottle3(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name.vb: KleinBottle3(Integer, Integer, Single, Single, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle3(int, int, float, float, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle3(Integer, Integer, Single, Single, Single)
+  nameWithType: ParametricSurfaceData.KleinBottle3(int, int, float, float, float)
+  nameWithType.vb: ParametricSurfaceData.KleinBottle3(Integer, Integer, Single, Single, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle3*
+  name: KleinBottle3
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_KleinBottle3_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.KleinBottle3
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.KleinBottle3
+  nameWithType: ParametricSurfaceData.KleinBottle3
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Kuen(System.Int32,System.Int32)
+  name: Kuen(int, int)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Kuen_System_Int32_System_Int32_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Kuen(System.Int32,System.Int32)
+  name.vb: Kuen(Integer, Integer)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Kuen(int, int)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Kuen(Integer, Integer)
+  nameWithType: ParametricSurfaceData.Kuen(int, int)
+  nameWithType.vb: ParametricSurfaceData.Kuen(Integer, Integer)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Kuen*
+  name: Kuen
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Kuen_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Kuen
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Kuen
+  nameWithType: ParametricSurfaceData.Kuen
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Layer(System.Int32,System.Int32)
+  name: Layer(int, int)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Layer_System_Int32_System_Int32_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Layer(System.Int32,System.Int32)
+  name.vb: Layer(Integer, Integer)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Layer(int, int)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Layer(Integer, Integer)
+  nameWithType: ParametricSurfaceData.Layer(int, int)
+  nameWithType.vb: ParametricSurfaceData.Layer(Integer, Integer)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Layer*
+  name: Layer
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Layer_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Layer
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Layer
+  nameWithType: ParametricSurfaceData.Layer
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Minimal(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name: Minimal(int, int, float, float, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Minimal_System_Int32_System_Int32_System_Single_System_Single_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Minimal(System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name.vb: Minimal(Integer, Integer, Single, Single, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Minimal(int, int, float, float, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Minimal(Integer, Integer, Single, Single, Single)
+  nameWithType: ParametricSurfaceData.Minimal(int, int, float, float, float)
+  nameWithType.vb: ParametricSurfaceData.Minimal(Integer, Integer, Single, Single, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Minimal*
+  name: Minimal
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Minimal_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Minimal
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Minimal
+  nameWithType: ParametricSurfaceData.Minimal
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Mobius(System.Int32,System.Int32)
+  name: Mobius(int, int)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Mobius_System_Int32_System_Int32_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Mobius(System.Int32,System.Int32)
+  name.vb: Mobius(Integer, Integer)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Mobius(int, int)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Mobius(Integer, Integer)
+  nameWithType: ParametricSurfaceData.Mobius(int, int)
+  nameWithType.vb: ParametricSurfaceData.Mobius(Integer, Integer)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Mobius*
+  name: Mobius
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Mobius_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Mobius
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Mobius
+  nameWithType: ParametricSurfaceData.Mobius
+- uid: ParametricSurfacesLib.ParametricSurfaceData.ParabolicCyclide(System.Int32,System.Int32,System.Single,System.Single)
+  name: ParabolicCyclide(int, int, float, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_ParabolicCyclide_System_Int32_System_Int32_System_Single_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.ParabolicCyclide(System.Int32,System.Int32,System.Single,System.Single)
+  name.vb: ParabolicCyclide(Integer, Integer, Single, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.ParabolicCyclide(int, int, float, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.ParabolicCyclide(Integer, Integer, Single, Single)
+  nameWithType: ParametricSurfaceData.ParabolicCyclide(int, int, float, float)
+  nameWithType.vb: ParametricSurfaceData.ParabolicCyclide(Integer, Integer, Single, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.ParabolicCyclide*
+  name: ParabolicCyclide
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_ParabolicCyclide_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.ParabolicCyclide
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.ParabolicCyclide
+  nameWithType: ParametricSurfaceData.ParabolicCyclide
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Parameters
+  name: Parameters
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Parameters
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.Parameters
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Parameters
+  nameWithType: ParametricSurfaceData.Parameters
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Parameters*
+  name: Parameters
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Parameters_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Parameters
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Parameters
+  nameWithType: ParametricSurfaceData.Parameters
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Pear(System.Int32,System.Int32,System.Single,System.Single)
+  name: Pear(int, int, float, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Pear_System_Int32_System_Int32_System_Single_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Pear(System.Int32,System.Int32,System.Single,System.Single)
+  name.vb: Pear(Integer, Integer, Single, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Pear(int, int, float, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Pear(Integer, Integer, Single, Single)
+  nameWithType: ParametricSurfaceData.Pear(int, int, float, float)
+  nameWithType.vb: ParametricSurfaceData.Pear(Integer, Integer, Single, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Pear*
+  name: Pear
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Pear_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Pear
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Pear
+  nameWithType: ParametricSurfaceData.Pear
+- uid: ParametricSurfacesLib.ParametricSurfaceData.PluckerConoid(System.Int32,System.Int32,System.Single,System.Single)
+  name: PluckerConoid(int, int, float, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_PluckerConoid_System_Int32_System_Int32_System_Single_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.PluckerConoid(System.Int32,System.Int32,System.Single,System.Single)
+  name.vb: PluckerConoid(Integer, Integer, Single, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.PluckerConoid(int, int, float, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.PluckerConoid(Integer, Integer, Single, Single)
+  nameWithType: ParametricSurfaceData.PluckerConoid(int, int, float, float)
+  nameWithType.vb: ParametricSurfaceData.PluckerConoid(Integer, Integer, Single, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.PluckerConoid*
+  name: PluckerConoid
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_PluckerConoid_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.PluckerConoid
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.PluckerConoid
+  nameWithType: ParametricSurfaceData.PluckerConoid
+- uid: ParametricSurfacesLib.ParametricSurfaceData.RotateObject(UnityEngine.Transform)
+  name: RotateObject(Transform)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_RotateObject_UnityEngine_Transform_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.RotateObject(UnityEngine.Transform)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.RotateObject(UnityEngine.Transform)
+  nameWithType: ParametricSurfaceData.RotateObject(Transform)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.RotateObject*
+  name: RotateObject
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_RotateObject_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.RotateObject
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.RotateObject
+  nameWithType: ParametricSurfaceData.RotateObject
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Seashell(System.Int32,System.Int32)
+  name: Seashell(int, int)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Seashell_System_Int32_System_Int32_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Seashell(System.Int32,System.Int32)
+  name.vb: Seashell(Integer, Integer)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Seashell(int, int)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Seashell(Integer, Integer)
+  nameWithType: ParametricSurfaceData.Seashell(int, int)
+  nameWithType.vb: ParametricSurfaceData.Seashell(Integer, Integer)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Seashell*
+  name: Seashell
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Seashell_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Seashell
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Seashell
+  nameWithType: ParametricSurfaceData.Seashell
+- uid: ParametricSurfacesLib.ParametricSurfaceData.SievertEnneper(System.Int32,System.Int32,System.Single)
+  name: SievertEnneper(int, int, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_SievertEnneper_System_Int32_System_Int32_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.SievertEnneper(System.Int32,System.Int32,System.Single)
+  name.vb: SievertEnneper(Integer, Integer, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.SievertEnneper(int, int, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.SievertEnneper(Integer, Integer, Single)
+  nameWithType: ParametricSurfaceData.SievertEnneper(int, int, float)
+  nameWithType.vb: ParametricSurfaceData.SievertEnneper(Integer, Integer, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.SievertEnneper*
+  name: SievertEnneper
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_SievertEnneper_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.SievertEnneper
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.SievertEnneper
+  nameWithType: ParametricSurfaceData.SievertEnneper
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Sphere(System.Int32,System.Int32)
+  name: Sphere(int, int)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Sphere_System_Int32_System_Int32_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Sphere(System.Int32,System.Int32)
+  name.vb: Sphere(Integer, Integer)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Sphere(int, int)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Sphere(Integer, Integer)
+  nameWithType: ParametricSurfaceData.Sphere(int, int)
+  nameWithType.vb: ParametricSurfaceData.Sphere(Integer, Integer)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Sphere*
+  name: Sphere
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Sphere_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Sphere
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Sphere
+  nameWithType: ParametricSurfaceData.Sphere
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Steiner(System.Int32,System.Int32,System.Single)
+  name: Steiner(int, int, float)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Steiner_System_Int32_System_Int32_System_Single_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Steiner(System.Int32,System.Int32,System.Single)
+  name.vb: Steiner(Integer, Integer, Single)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Steiner(int, int, float)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Steiner(Integer, Integer, Single)
+  nameWithType: ParametricSurfaceData.Steiner(int, int, float)
+  nameWithType.vb: ParametricSurfaceData.Steiner(Integer, Integer, Single)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Steiner*
+  name: Steiner
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Steiner_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Steiner
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Steiner
+  nameWithType: ParametricSurfaceData.Steiner
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Torus(System.Int32,System.Int32)
+  name: Torus(int, int)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Torus_System_Int32_System_Int32_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Torus(System.Int32,System.Int32)
+  name.vb: Torus(Integer, Integer)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Torus(int, int)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Torus(Integer, Integer)
+  nameWithType: ParametricSurfaceData.Torus(int, int)
+  nameWithType.vb: ParametricSurfaceData.Torus(Integer, Integer)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Torus*
+  name: Torus
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Torus_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Torus
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Torus
+  nameWithType: ParametricSurfaceData.Torus
+- uid: ParametricSurfacesLib.ParametricSurfaceData.UMax
+  name: UMax
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_UMax
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.UMax
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.UMax
+  nameWithType: ParametricSurfaceData.UMax
+- uid: ParametricSurfacesLib.ParametricSurfaceData.UMax*
+  name: UMax
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_UMax_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.UMax
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.UMax
+  nameWithType: ParametricSurfaceData.UMax
+- uid: ParametricSurfacesLib.ParametricSurfaceData.UMin
+  name: UMin
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_UMin
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.UMin
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.UMin
+  nameWithType: ParametricSurfaceData.UMin
+- uid: ParametricSurfacesLib.ParametricSurfaceData.UMin*
+  name: UMin
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_UMin_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.UMin
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.UMin
+  nameWithType: ParametricSurfaceData.UMin
+- uid: ParametricSurfacesLib.ParametricSurfaceData.UResolution
+  name: UResolution
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_UResolution
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.UResolution
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.UResolution
+  nameWithType: ParametricSurfaceData.UResolution
+- uid: ParametricSurfacesLib.ParametricSurfaceData.UResolution*
+  name: UResolution
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_UResolution_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.UResolution
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.UResolution
+  nameWithType: ParametricSurfaceData.UResolution
+- uid: ParametricSurfacesLib.ParametricSurfaceData.UseCustomColormap
+  name: UseCustomColormap
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_UseCustomColormap
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.UseCustomColormap
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.UseCustomColormap
+  nameWithType: ParametricSurfaceData.UseCustomColormap
+- uid: ParametricSurfacesLib.ParametricSurfaceData.UseCustomColormap*
+  name: UseCustomColormap
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_UseCustomColormap_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.UseCustomColormap
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.UseCustomColormap
+  nameWithType: ParametricSurfaceData.UseCustomColormap
+- uid: ParametricSurfacesLib.ParametricSurfaceData.VMax
+  name: VMax
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_VMax
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.VMax
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.VMax
+  nameWithType: ParametricSurfaceData.VMax
+- uid: ParametricSurfacesLib.ParametricSurfaceData.VMax*
+  name: VMax
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_VMax_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.VMax
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.VMax
+  nameWithType: ParametricSurfaceData.VMax
+- uid: ParametricSurfacesLib.ParametricSurfaceData.VMin
+  name: VMin
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_VMin
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.VMin
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.VMin
+  nameWithType: ParametricSurfaceData.VMin
+- uid: ParametricSurfacesLib.ParametricSurfaceData.VMin*
+  name: VMin
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_VMin_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.VMin
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.VMin
+  nameWithType: ParametricSurfaceData.VMin
+- uid: ParametricSurfacesLib.ParametricSurfaceData.VResolution
+  name: VResolution
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_VResolution
+  commentId: P:ParametricSurfacesLib.ParametricSurfaceData.VResolution
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.VResolution
+  nameWithType: ParametricSurfaceData.VResolution
+- uid: ParametricSurfacesLib.ParametricSurfaceData.VResolution*
+  name: VResolution
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_VResolution_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.VResolution
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.VResolution
+  nameWithType: ParametricSurfaceData.VResolution
+- uid: ParametricSurfacesLib.ParametricSurfaceData.VertexData
+  name: ParametricSurfaceData.VertexData
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.VertexData.html
+  commentId: T:ParametricSurfacesLib.ParametricSurfaceData.VertexData
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.VertexData
+  nameWithType: ParametricSurfaceData.VertexData
+- uid: ParametricSurfacesLib.ParametricSurfaceData.VertexData.Colors
+  name: Colors
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.VertexData.html#ParametricSurfacesLib_ParametricSurfaceData_VertexData_Colors
+  commentId: F:ParametricSurfacesLib.ParametricSurfaceData.VertexData.Colors
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.VertexData.Colors
+  nameWithType: ParametricSurfaceData.VertexData.Colors
+- uid: ParametricSurfacesLib.ParametricSurfaceData.VertexData.Triangles
+  name: Triangles
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.VertexData.html#ParametricSurfacesLib_ParametricSurfaceData_VertexData_Triangles
+  commentId: F:ParametricSurfacesLib.ParametricSurfaceData.VertexData.Triangles
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.VertexData.Triangles
+  nameWithType: ParametricSurfaceData.VertexData.Triangles
+- uid: ParametricSurfacesLib.ParametricSurfaceData.VertexData.UVs
+  name: UVs
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.VertexData.html#ParametricSurfacesLib_ParametricSurfaceData_VertexData_UVs
+  commentId: F:ParametricSurfacesLib.ParametricSurfaceData.VertexData.UVs
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.VertexData.UVs
+  nameWithType: ParametricSurfaceData.VertexData.UVs
+- uid: ParametricSurfacesLib.ParametricSurfaceData.VertexData.Vertices
+  name: Vertices
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.VertexData.html#ParametricSurfacesLib_ParametricSurfaceData_VertexData_Vertices
+  commentId: F:ParametricSurfacesLib.ParametricSurfaceData.VertexData.Vertices
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.VertexData.Vertices
+  nameWithType: ParametricSurfaceData.VertexData.Vertices
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Wellenkugel(System.Int32,System.Int32)
+  name: Wellenkugel(int, int)
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Wellenkugel_System_Int32_System_Int32_
+  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Wellenkugel(System.Int32,System.Int32)
+  name.vb: Wellenkugel(Integer, Integer)
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Wellenkugel(int, int)
+  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Wellenkugel(Integer, Integer)
+  nameWithType: ParametricSurfaceData.Wellenkugel(int, int)
+  nameWithType.vb: ParametricSurfaceData.Wellenkugel(Integer, Integer)
+- uid: ParametricSurfacesLib.ParametricSurfaceData.Wellenkugel*
+  name: Wellenkugel
+  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Wellenkugel_
+  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Wellenkugel
+  isSpec: "True"
+  fullName: ParametricSurfacesLib.ParametricSurfaceData.Wellenkugel
+  nameWithType: ParametricSurfaceData.Wellenkugel
