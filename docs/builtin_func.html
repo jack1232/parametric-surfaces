@@ -90,13 +90,13 @@
 <p>This demo illustrates how to utilize 26 built-in mathematical functions provided in the <em>ParametricSurfacesLib</em> library to generate 3D parametric surface plots. You can select the mathematical function from the <em>MathFunctionEnum</em> dropdown menu in the Inspector. Additionally, you can adjust the colormap and other parameters for the plots in real-time either in the Scene View or the Game View.</p>
 <h3 id="set-up-the-scene">Set up the Scene</h3>
 <p>The demo examples in the <em>Parametric Surfaces</em> package include three Scenes located in the <em>Parametric Surfaces/Scenes</em> folder:</p>
-<p><img src="/images/img06.png" alt="scenes"></p>
+<p><img src="../images/img06.png" alt="scenes"></p>
 <p>Double-click on the scene named <em>BuiltinFunctions</em> to access the demo for built-in mathematical functions:</p>
-<p><img src="/images/img07.png" alt="builtin"></p>
+<p><img src="../images/img07.png" alt="builtin"></p>
 <p>In the Scene view window, you'll see the parametric <em>Klein bottle</em> surface displayed with the default <em>jet</em> colormap. In the Hierarchy window, there is only one GameObject named <em>Surface</em>. Clicking on <em>Surface</em> bring up its Inspector, where you can inspect the surface's properties. The material is specified using <em>VertexColorMaterial</em>. Additionally, the surface is attached to a C# script named <em>BuilinFunctions.cs</em>, which exposes several properties for manipulating the surface plot.</p>
 <h3 id="c-script">C# Script</h3>
 <p>To examine the C# script file used in this demo, navigate to the <em>Parametric Surfaces/Scripts</em> folder, double-click on the <em>BuiltinFunctions.cs</em> file:</p>
-<p><img src="/images/img08.png" alt="builtin func"></p>
+<p><img src="../images/img08.png" alt="builtin func"></p>
 <p>This will open the <em>BuiltinFunctions.cs</em> file in Visual Studio. Here is the code list for this script:</p>
 <pre><code>using ParametricSurfacesLib;
 using System;
@@ -177,14 +177,14 @@ public class BuiltinFunctions : MonoBehaviour
 <p>Finally, we call the <em>mesh.RecalculateNormals</em> method to calculate the normal vector data that will be used for lighting.</p>
 <h3 id="start-play-mode">Start Play Mode</h3>
 <p>let's begin the Play mode by clicking the <em>Play</em> button. You'll see the default <em>Klein bottle</em> surface with the <em>jet</em> colormap. You can rotate, pan, and zoom the plot using your mouse, as demonstrated in the image below:</p>
-<p><img src="/images/img09.png" alt="builtin func"></p>
+<p><img src="../images/img09.png" alt="builtin func"></p>
 <p>Next, clicking on the <em>Colormaps</em> dropdown menu reveals a list containing over 60 colormaps:</p>
-<p><img src="/images/img10.png" alt="colormap"></p>
+<p><img src="../images/img10.png" alt="colormap"></p>
 <p>You can select any colormap from this list to update the surface plot in real-time. For example, selecting the <em>cool</em> colormap from this list results in the following <em>Klein bottle</em> surface with the <em>cool</em> colormap. Additionally, checking the <em>Colormap Reverse</em> box reverses the <em>cool</em> colormap for the surface plot:</p>
-<p><img src="/images/img11.png" alt="colormap"></p>
+<p><img src="../images/img11.png" alt="colormap"></p>
 <p>This means that our <em>ParametricSurfacesLib</em> library contains over 120 colormaps (61 colormaps plus 61 reversed colormaps) that allow you to set colors for your 3D surface plots.</p>
 <p>You can also create various parametric surfaces by selecting different mathematical functions from the <em>MathFunctions</em> dropdown menu, which contains 26 built-in mathematical functions. The image below showcases selected parametric surfaces with different colormaps:</p>
-<p><img src="/images/img12.png" alt="surfaces"></p>
+<p><img src="../images/img12.png" alt="surfaces"></p>
 <p>Furthermore, you can adjust other parameters such as the <em>smoothness</em> and <em>metallic</em> in the <em>Material</em> section within the Inspector to enhance the appearance of your 3D parametric surface. Particularly, checking the <em>Auto Rotation</em> box enables continuous rotation of the surface plot on your screen.</p>
 
 </article>

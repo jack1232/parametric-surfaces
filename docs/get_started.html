@@ -89,21 +89,21 @@
 
 <h3 id="import-library">Import Library</h3>
 <p>To utilize the <em>ParametricSurfacesLib</em> library, you need to import it into your Unity project. Simply open the <em>Asset Store</em> window and import the <em>Parametric Surfaces</em> library package. The library can be found in the <em>Parametric Surfaces/Plugins</em> folder:</p>
-<p><img src="/images/img01.png" alt="import library"></p>
+<p><img src="../images/img01.png" alt="import library"></p>
 <p>Within the folder, you will find two files: <em>ParametricSurfacesLib.dll</em> and <em>ParametricSurfacesLib.xml</em>. The former is the class library file, while the latter is the xml file used for IntelliSense in Visual Studio. In practice, your Unity project only requires these two files to create parametric 3D surface plots. You can place these two files within your project wherever you prefer, but ensure they are placed in the same folder.</p>
 <h3 id="materials-optional">Materials (Optional)</h3>
 <p>To test the library, you'll need to utilize a material that supports vertex color. Within the <em>Parametric Surfaces/Materials</em> folder, we've created two shaders using Shader Graph, one named <em>VertexColorGraph</em> and the other <em>TextureGraph</em>. These shaders are then used to define two materials: <em>VertexColorMaterial</em> and <em>TextureMaterial</em>, as illustrated in the following image:</p>
-<p><img src="/images/img02.png" alt="materials"></p>
+<p><img src="../images/img02.png" alt="materials"></p>
 <p>The image below displays the <em>VertexColorGraph</em>.</p>
-<p><img src="/images/img03.png" alt="vertex color graph"></p>
+<p><img src="../images/img03.png" alt="vertex color graph"></p>
 <p>This graph simple passes the vertex color to the fragment shader. Additionally, we expose two properties, <em>smoothness</em> and <em>metallic</em>, enabling users to easily adjust these properties in the Inspector.</p>
 <p>The <em>TextureGraph</em> becomes more intricate, as depicted in the following image.</p>
-<p><img src="/images/img04.png" alt="texture graph"></p>
+<p><img src="../images/img04.png" alt="texture graph"></p>
 <p>This graph exposes four properties: <em>smoothness, metallic, UV Length</em> and <em>Texture Image</em>. The <em>UV Length</em> is of type <em>Vector2</em>, allowing users to repeat the image texture along the U and V directions, while the <em>TextureImage</em> property enables users to select different image textures.</p>
 <p>In the <em>Parametric Surfaces/Textures</em> folder, we've included several images that you can use to test the texture mapping on parametric surfaces.</p>
 <h3 id="camera-control-optional">Camera Control (Optional)</h3>
 <p>The the <em>Parametric Surfaces/Scripts</em> folder contains a <em>CameraOrbit.cs</em> file. This file can be attached to the <em>MainCamera</em> object in a scene, as shown in the following image:</p>
-<p><img src="/images/img05.png" alt="camera"></p>
+<p><img src="../images/img05.png" alt="camera"></p>
 <p>This allows you to rotate, pan, and zoom the <em>GameObject</em> with your mouse in the game play mode. This camera control is optional, you can use whatever camera you like.</p>
 <p>With this preparation and setup, we'll show you how to use the <em>ParametricSurfacesLib</em> library to create several demo examples in the following sections.</p>
 
