@@ -87,7 +87,7 @@
         <article data-uid="">
 <h1 id="demo-built-in-functions">Demo: Built-in Functions</h1>
 
-<p>This demo illustrates how to utilize 26 built-in mathematical functions provided in the <em>ParametricSurfacesLib</em> library to generate 3D parametric surface plots. You can select the mathematical function from the <em>MathFunctionEnum</em> dropdown menu in the Inspector. Additionally, you can adjust the colormap and other parameters for the plots in real-time either in the Scene View or the Game View.</p>
+<p>This demo illustrates how to utilize 26 built-in mathematical functions provided in the <em>ParametricSurfacesLib</em> library to generate various 3D parametric surface plots. You can select the mathematical function from the <em>MathFunctionEnum</em> dropdown menu in the Inspector. Additionally, you can adjust the colormap and other parameters for the plots in real-time either in the Scene View or the Game View.</p>
 <h3 id="set-up-the-scene">Set up the Scene</h3>
 <p>The demo examples in the <em>Parametric Surfaces</em> package include three Scenes located in the <em>Parametric Surfaces/Scenes</em> folder:</p>
 <p><img src="../images/img06.png" alt="scenes"></p>
@@ -171,8 +171,8 @@ public class BuiltinFunctions : MonoBehaviour
 <p>First, we introduce the <em>ParametricSurfacesLib</em> library with the following using statement:</p>
 <pre><code>using ParametricSurfacesLib;
 </code></pre>
-<p>Next, we define several public fields whose values can be modified in the Inspector, including <em>MathFunctionEnum, ColormapEnum, ColormapReverse</em>, and <em>ColormapDirectionEnum</em>. All these fields are included in the <em>ParametricSurfacesLib</em>. The <em>Start</em> and <em>Update</em> methods are standard for a typical Unity project.</p>
-<p>The key method to utilize the <em>ParametricSurfacesLib</em> library is the <em>CreateSurface</em> method. Inside this method, we establish the relationships between the public fields defined in the Inspector and the fields implemented in the <em>ParametricSurfaceData</em> class in the <em>ParametricSurfacesLib</em> library. Next, we call the <em>GetDefaultSurfaceData</em> method to generate corresponding data, including <em>Vertices, Colormaps, UVs</em>, and <em>Triangles</em> (or <em>Indices</em>), for the 3D parametric surface. Subsequently, we assign this data to the Unity mesh object.</p>
+<p>Next, we define several public fields whose values can be modified in the Inspector, including <em>MathFunctionEnum, ColormapEnum, ColormapReverse</em>, and <em>ColormapDirectionEnum</em>. All these fields are included in the <em>ParametricSurfacesLib</em> library. The <em>Start</em> and <em>Update</em> methods are standard for a typical Unity project.</p>
+<p>The key method to utilize the <em>ParametricSurfacesLib</em> library is the <em>CreateSurface</em> method. Inside this method, we establish the relationships between the public fields defined in the Inspector and the fields implemented in the <em>ParametricSurfaceData</em> class in the library. Next, we call the <em>GetDefaultSurfaceData</em> method to generate corresponding data, including <em>Vertices, Colormaps, UVs</em>, and <em>Triangles</em> (or <em>Indices</em>), for the 3D parametric surface. Subsequently, we assign this data to the Unity mesh object.</p>
 <p>Note that we don't assign the UV coord data to the mesh because we don't want to map any image texture onto our surface in this demo.</p>
 <p>Finally, we call the <em>mesh.RecalculateNormals</em> method to calculate the normal vector data that will be used for lighting.</p>
 <h3 id="start-play-mode">Start Play Mode</h3>
