@@ -84,7 +84,7 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="">
+        <article data-uid="uid_get_started">
 <h1 id="get-started">Get Started</h1>
 
 <h3 id="import-library">Import Library</h3>
@@ -93,7 +93,7 @@
 <p>Within the folder, you will find two files: <em>ParametricSurfacesLib.dll</em> and <em>ParametricSurfacesLib.xml</em>. The former is the class library file, while the latter is the xml file used for IntelliSense in Visual Studio. In practice, your Unity project only requires these two files to create parametric 3D surface plots. You can place these two files within your project wherever you prefer, but ensure they are placed in the same folder.</p>
 <h3 id="materials-optional">Materials (Optional)</h3>
 <p>To test the library, you'll need to utilize a material that supports vertex color. Within the <em>Parametric Surfaces/Materials</em> folder, we've created two shaders using Shader Graph, one named <em>VertexColorGraph</em> and the other <em>TextureGraph</em>. These shaders are then used to define two materials: <em>VertexColorMaterial</em> and <em>TextureMaterial</em>, as illustrated in the following image:</p>
-<p><img src="../images/img02.png" alt="materials"></p>
+<p><img src="../images/img02a.png" alt="materials"></p>
 <p>The image below displays the <em>VertexColorGraph</em>.</p>
 <p><img src="../images/img03.png" alt="vertex color graph"></p>
 <p>This graph simply passes the vertex color to the fragment shader. Additionally, we expose two properties, <em>smoothness</em> and <em>metallic</em>, enabling users to easily adjust these properties in the Inspector.</p>

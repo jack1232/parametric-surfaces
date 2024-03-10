@@ -208,6 +208,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/img02a.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/img02a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/img03.png",
       "output": {
         "resource": {

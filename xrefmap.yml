@@ -1367,3 +1367,15 @@ references:
   isSpec: "True"
   fullName: ParametricSurfacesLib.ParametricSurfaceData.Wellenkugel
   nameWithType: ParametricSurfaceData.Wellenkugel
+- uid: uid_builtin_functions
+  name: 'Demo: Built-in Functions'
+  href: docs/builtin_func.html
+- uid: uid_custom_func
+  name: Custom Functions from User
+  href: docs/custom_func.html
+- uid: uid_get_started
+  name: Get Started
+  href: docs/get_started.html
+- uid: uid_texture_map
+  name: Texture Mapping
+  href: docs/texture_map.html
