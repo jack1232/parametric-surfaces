@@ -130,8 +130,7 @@ public class CustomFunction : MonoBehaviour
 
     void Start()
     {
-        psd = new ParametricSurfaceData();
-        mesh = new Mesh();
+        mesh = new Mesh() { indexFormat = UnityEngine.Rendering.IndexFormat.UInt32 };
         GetComponent&lt;MeshFilter&gt;().mesh = mesh;
         CreateSurface();
     }
@@ -166,12 +165,11 @@ public class CustomFunction : MonoBehaviour
             UMax = 2f * Mathf.PI,
             VMin = 0f,
             VMax = 2f * Mathf.PI,
-        };
-
-        psd.ColormapName = Colormaps;
-        psd.ColormapReverse = ColormapReverse;
-        psd.ColormapDirection = ColormapDirection;
-        data = psd.CreateData(TorusFunction, 201, 201);
+            ColormapName = Colormaps,
+            ColormapReverse = ColormapReverse,
+            ColormapDirection = ColormapDirection
+        };   
+        data = psd.CreateData(TorusFunction, 500, 500);
         mesh.Clear();
         mesh.vertices = data.Vertices;
         mesh.colors = data.Colors;
@@ -191,6 +189,11 @@ public class CustomFunction : MonoBehaviour
 }
 </code></pre>
 <p>Within the custom <em>TorusFunction</em> method, we utilize two public fields, <em>RTorus</em> and <em>RRing</em>, to control the appearance of the torus. These fields can be easily adjusted by the user from the Inspector. The method returns a 3D point of the <em>Vector3</em> type on the torus surface.</p>
+<p>It worth noting that Unity typically uses a default 16-bit index format that supports up to 65,535 vertices for each game object. This implies that resolution above 255 x 255 will exceed this limit. To overcome this constraint, we can set the index format to 32-bit using the following code snippet inside the <em>Start()</em> method:</p>
+<pre><code>    mesh = new Mesh() { indexFormat = UnityEngine.Rendering.IndexFormat.UInt32 };
+</code></pre>
+<p>A 32-bit index format will support up to four billion vertices for each object, enabling you to generate a more detailed mesh for your custom parametric surface with a high resolution.</p>
+<p>In this demo, we utilize a resolution of 500 x 500, resulting in 250,000 vertices to generate the custom parametric surface. To handle rendering such a large number of vertices for our custom surface, it's necessary to set the index format to 32-bit.</p>
 <p>Now, we can use this custom function inside the <em>CreateSurface</em> method in the same way as we did for the built-in functions implemented in the <em>ParametricSurfacesLib</em> library, but we need to specify the data range for the <em>u</em> and <em>v</em> variables used in our custom parametric function with the following code snippet:</p>
 <pre><code>psd ??= new ParametricSurfaceData()
 {
@@ -198,12 +201,14 @@ public class CustomFunction : MonoBehaviour
     UMax = 2f * Mathf.PI,
     VMin = 0f,
     VMax = 2f * Mathf.PI,
+    ...
 };
 </code></pre>
 <p>Next, we pass our custom <em>TorusFunction</em> to the <em>CreateData</em> method to generate corresponding vertex data for the torus surface. The rest of the code for this demo is the same as that used in creating 3D parametric surfaces with the built-in mathematical functions.</p>
 <h3 id="start-play-mode">Start Play Mode</h3>
 <p>let's begin the Play mode by clicking the <em>Play</em> button. You'll observe our custom <em>Torus</em> surface with the <em>jet</em> colormap, as shown in the following image:</p>
 <p><img src="../images/img19.png" alt="colormap"></p>
+<p>Note that the Inspector contains an <em>Auto Update</em> checkbox. When this box is checked, any change in the Inspector will cause the object to be refreshed immediately. However, this can be computationally intensive and may cause lag. Is is recommended that you check this box only after making changes and uncheck it after the object has been refreshed.</p>
 <p>By following the procedure described here, you can effortlessly create your own parametric surfaces by defining any parametric functions.</p>
 
 </article>
