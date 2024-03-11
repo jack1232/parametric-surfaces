@@ -358,10 +358,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/img17.png",
+      "source_relative_path": "images/img17a.png",
       "output": {
         "resource": {
-          "relative_path": "images/img17.png"
+          "relative_path": "images/img17a.png"
         }
       },
       "version": ""

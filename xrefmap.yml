@@ -529,18 +529,6 @@ references:
   commentId: T:ParametricSurfacesLib.MathFunctionEnum
   fullName: ParametricSurfacesLib.MathFunctionEnum
   nameWithType: MathFunctionEnum
-- uid: ParametricSurfacesLib.MathFunctionEnum.Astroid
-  name: Astroid
-  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Astroid
-  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Astroid
-  fullName: ParametricSurfacesLib.MathFunctionEnum.Astroid
-  nameWithType: MathFunctionEnum.Astroid
-- uid: ParametricSurfacesLib.MathFunctionEnum.Astroid2
-  name: Astroid2
-  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Astroid2
-  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Astroid2
-  fullName: ParametricSurfacesLib.MathFunctionEnum.Astroid2
-  nameWithType: MathFunctionEnum.Astroid2
 - uid: ParametricSurfacesLib.MathFunctionEnum.AstroidalTorus
   name: AstroidalTorus
   href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_AstroidalTorus
@@ -619,12 +607,6 @@ references:
   commentId: F:ParametricSurfacesLib.MathFunctionEnum.Minimal
   fullName: ParametricSurfacesLib.MathFunctionEnum.Minimal
   nameWithType: MathFunctionEnum.Minimal
-- uid: ParametricSurfacesLib.MathFunctionEnum.Mobius
-  name: Mobius
-  href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_Mobius
-  commentId: F:ParametricSurfacesLib.MathFunctionEnum.Mobius
-  fullName: ParametricSurfacesLib.MathFunctionEnum.Mobius
-  nameWithType: MathFunctionEnum.Mobius
 - uid: ParametricSurfacesLib.MathFunctionEnum.ParabolicCyclide
   name: ParabolicCyclide
   href: api/ParametricSurfacesLib.MathFunctionEnum.html#ParametricSurfacesLib_MathFunctionEnum_ParabolicCyclide
@@ -723,38 +705,6 @@ references:
   isSpec: "True"
   fullName: ParametricSurfacesLib.ParametricSurfaceData.AnimationSpeed
   nameWithType: ParametricSurfaceData.AnimationSpeed
-- uid: ParametricSurfacesLib.ParametricSurfaceData.Astroid(System.Int32,System.Int32,System.Single,System.Single,System.Single)
-  name: Astroid(int, int, float, float, float)
-  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Astroid_System_Int32_System_Int32_System_Single_System_Single_System_Single_
-  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Astroid(System.Int32,System.Int32,System.Single,System.Single,System.Single)
-  name.vb: Astroid(Integer, Integer, Single, Single, Single)
-  fullName: ParametricSurfacesLib.ParametricSurfaceData.Astroid(int, int, float, float, float)
-  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Astroid(Integer, Integer, Single, Single, Single)
-  nameWithType: ParametricSurfaceData.Astroid(int, int, float, float, float)
-  nameWithType.vb: ParametricSurfaceData.Astroid(Integer, Integer, Single, Single, Single)
-- uid: ParametricSurfacesLib.ParametricSurfaceData.Astroid*
-  name: Astroid
-  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Astroid_
-  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Astroid
-  isSpec: "True"
-  fullName: ParametricSurfacesLib.ParametricSurfaceData.Astroid
-  nameWithType: ParametricSurfaceData.Astroid
-- uid: ParametricSurfacesLib.ParametricSurfaceData.Astroid2(System.Int32,System.Int32,System.Single,System.Single,System.Single)
-  name: Astroid2(int, int, float, float, float)
-  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Astroid2_System_Int32_System_Int32_System_Single_System_Single_System_Single_
-  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Astroid2(System.Int32,System.Int32,System.Single,System.Single,System.Single)
-  name.vb: Astroid2(Integer, Integer, Single, Single, Single)
-  fullName: ParametricSurfacesLib.ParametricSurfaceData.Astroid2(int, int, float, float, float)
-  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Astroid2(Integer, Integer, Single, Single, Single)
-  nameWithType: ParametricSurfaceData.Astroid2(int, int, float, float, float)
-  nameWithType.vb: ParametricSurfaceData.Astroid2(Integer, Integer, Single, Single, Single)
-- uid: ParametricSurfacesLib.ParametricSurfaceData.Astroid2*
-  name: Astroid2
-  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Astroid2_
-  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Astroid2
-  isSpec: "True"
-  fullName: ParametricSurfacesLib.ParametricSurfaceData.Astroid2
-  nameWithType: ParametricSurfaceData.Astroid2
 - uid: ParametricSurfacesLib.ParametricSurfaceData.AstroidalTorus(System.Int32,System.Int32,System.Single,System.Single,System.Single)
   name: AstroidalTorus(int, int, float, float, float)
   href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_AstroidalTorus_System_Int32_System_Int32_System_Single_System_Single_System_Single_
@@ -1060,22 +1010,6 @@ references:
   isSpec: "True"
   fullName: ParametricSurfacesLib.ParametricSurfaceData.Minimal
   nameWithType: ParametricSurfaceData.Minimal
-- uid: ParametricSurfacesLib.ParametricSurfaceData.Mobius(System.Int32,System.Int32)
-  name: Mobius(int, int)
-  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Mobius_System_Int32_System_Int32_
-  commentId: M:ParametricSurfacesLib.ParametricSurfaceData.Mobius(System.Int32,System.Int32)
-  name.vb: Mobius(Integer, Integer)
-  fullName: ParametricSurfacesLib.ParametricSurfaceData.Mobius(int, int)
-  fullName.vb: ParametricSurfacesLib.ParametricSurfaceData.Mobius(Integer, Integer)
-  nameWithType: ParametricSurfaceData.Mobius(int, int)
-  nameWithType.vb: ParametricSurfaceData.Mobius(Integer, Integer)
-- uid: ParametricSurfacesLib.ParametricSurfaceData.Mobius*
-  name: Mobius
-  href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_Mobius_
-  commentId: Overload:ParametricSurfacesLib.ParametricSurfaceData.Mobius
-  isSpec: "True"
-  fullName: ParametricSurfacesLib.ParametricSurfaceData.Mobius
-  nameWithType: ParametricSurfaceData.Mobius
 - uid: ParametricSurfacesLib.ParametricSurfaceData.ParabolicCyclide(System.Int32,System.Int32,System.Single,System.Single)
   name: ParabolicCyclide(int, int, float, float)
   href: api/ParametricSurfacesLib.ParametricSurfaceData.html#ParametricSurfacesLib_ParametricSurfaceData_ParabolicCyclide_System_Int32_System_Int32_System_Single_System_Single_
